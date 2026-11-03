@@ -1,0 +1,7 @@
+# .NET build outputs
+**/bin/
+**/obj/
+TestResults/
+.vs/
+artifacts/
+data/

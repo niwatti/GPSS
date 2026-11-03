@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "kind": "pipeline_summary",
+    "source": "mock_xinput",
+    "acquisitionMode": "Normal",
+    "targetIntervalMs": 1,
+    "requestedSeconds": 300,
+    "wallSeconds": 300.027646,
+    "apiCalls": 234579,
+    "stateUpdates": 234579,
+    "apiCallsPerSecond": 781.8579478808131,
+    "stateUpdatesPerSecond": 781.8579476202177,
+    "analysisP95Ms": 4.6161,
+    "analysisP99Ms": 20.3366,
+    "analysisMaxMs": 23.6463,
+    "drainP95Ms": 0.0872,
+    "drainP99Ms": 0.1259,
+    "drainMaxMs": 13.936,
+    "uniqueAnalysisRevisions": 2944,
+    "analysisPercentileSamples": 2944,
+    "drainPercentileSamples": 10000,
+    "cumulativeAllocatedBytes": 2682723960,
+    "heapAtEndBytes": 136713472,
+    "gcPauseMs": 2328.962,
+    "gen0Collections": 418,
+    "gen1Collections": 410,
+    "gen2Collections": 73,
+    "finalDrainDurationMs": 0.0752,
+    "finalAnalysisDurationMs": 1.489,
+    "finalAnalysisCompletedTicks": 649534917751958,
+    "finalQueueCount": 0,
+    "finalQueueBytes": 0,
+    "finalQueueOldestAgeMs": 0,
+    "finalAnalysisSampleCount": 94212,
+    "finalHistoryPointCount": 15624
+  },
+  "intervalCount": 59,
+  "steadyIntervalsFromSeconds": 40,
+  "steadyAllocationMiBPerSecondRange": [
+    8.69270227404167,
+    9.024590942893639
+  ],
+  "sampledQueueMax": 4,
+  "sampledQueueAgeMaxMs": 3.852166,
+  "observedHistogramCountRangeAfter40Seconds": [
+    92839,
+    94415
+  ],
+  "cpuWholeMachinePercentRangeAfter40Seconds": [
+    1.805027885729478,
+    2.357855974782729
+  ],
+  "allHistogramCountsWithinSamplePairBound": true,
+  "windowsWpfExecuted": false
+}

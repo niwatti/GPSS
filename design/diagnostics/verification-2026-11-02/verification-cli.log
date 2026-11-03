@@ -1,0 +1,7 @@
+VSTest のバージョン 18.7.0 (arm64)
+
+テスト実行を開始しています。お待ちください...
+合計 1 個のテスト ファイルが指定されたパターンと一致しました。
+結果ファイル: /Volumes/dev/gpss/TestResults/verification-cli.trx
+
+成功!   -失敗:     0、合格:    13、スキップ:     0、合計:    13、期間: 1 s - Gpss.Cli.Tests.dll (net10.0)

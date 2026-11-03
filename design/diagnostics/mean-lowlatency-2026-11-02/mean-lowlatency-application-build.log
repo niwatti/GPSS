@@ -1,0 +1,11 @@
+  Gpss.Core -> /Volumes/dev/gpss/src/Gpss.Core/bin/Debug/net10.0/Gpss.Core.dll
+  Gpss.Input.Abstractions -> /Volumes/dev/gpss/src/Gpss.Input.Abstractions/bin/Debug/net10.0/Gpss.Input.Abstractions.dll
+  Gpss.Application -> /Volumes/dev/gpss/src/Gpss.Application/bin/Debug/net10.0/Gpss.Application.dll
+  Gpss.Input.Simulation -> /Volumes/dev/gpss/src/Gpss.Input.Simulation/bin/Debug/net10.0/Gpss.Input.Simulation.dll
+  Gpss.Application.Tests -> /Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:02.99

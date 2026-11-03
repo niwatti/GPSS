@@ -1,0 +1,20 @@
+{
+  "canonicalOutput": "artifacts/win-x64",
+  "executables": [
+    {
+      "file": "Gpss.Desktop.exe",
+      "sha256": "08c22d4678991e498bc81be4fef8c566667f2135af23e69adcde97059249a240"
+    },
+    {
+      "file": "Gpss.Cli.exe",
+      "sha256": "b913c420a28f70dbe3cf5d72d26fd807c1d4e4e97d7be0b5e1c4935de6769fb4"
+    }
+  ],
+  "zip": "artifacts/GPSS-win-x64.zip",
+  "zipBytes": 93519840,
+  "zipSha256": "d36266e76d942c0dc64179a531f13b9fc75af4f560a9c92d2d96f1c77d5d269c",
+  "zipEntries": 215,
+  "crcAndAllPayloadHashesVerified": true,
+  "stagingRemoved": true,
+  "windowsExecutionTested": false
+}

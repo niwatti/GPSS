@@ -1,0 +1,58 @@
+[
+  {
+    "file": "artifacts/histogram-flbpsx_t/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/histogram-flbpsx_t/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/history-fix-j83_2hky/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/history-fix-j83_2hky/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/single-file-490ovxoz/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/single-file-490ovxoz/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64-logo/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64-logo/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64-window-period/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/win-x64-window-period/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/xinput-step-fix-q_73aopr/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "file": "artifacts/xinput-step-fix-q_73aopr/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  }
+]

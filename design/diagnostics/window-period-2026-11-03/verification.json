@@ -1,0 +1,2938 @@
+{
+  "completedDate": "2026-11-03",
+  "tests": {
+    "total": 188,
+    "executed": 188,
+    "passed": 188,
+    "failed": 0,
+    "error": 0,
+    "timeout": 0,
+    "aborted": 0,
+    "inconclusive": 0,
+    "passedButRunAborted": 0,
+    "notRunnable": 0,
+    "notExecuted": 0,
+    "disconnected": 0,
+    "warning": 0,
+    "completed": 0,
+    "inProgress": 0,
+    "pending": 0
+  },
+  "wpfCasesCompiledOnly": 19,
+  "windowsExecuted": false,
+  "dependencyLocksUnchanged": 16,
+  "virtualConditions": [
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 75,
+      "hz": 1000,
+      "pattern": "mixed",
+      "windowSeconds": 10,
+      "engine": "live",
+      "candidateSamplesPerAxis": 75000,
+      "appendedSamplesPerAxis": 56250,
+      "unchangedPollsPerAxis": 18750,
+      "appendP95Ms": 0.4764,
+      "appendP99Ms": 0.9933,
+      "appendMaxMs": 6.4402,
+      "appendPercentileSamples": 750,
+      "analyzeP95Ms": 1.3007,
+      "analyzeP99Ms": 1.7542,
+      "analyzeMaxMs": 3.3432,
+      "analyzePercentileSamples": 750,
+      "maxWindowCountPerAxis": 7501,
+      "maxDrawPointsPerAxis": 2018,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        7501,
+        7501,
+        7501,
+        7501
+      ],
+      "maximumDrawPointsByAxis": [
+        2018,
+        2015,
+        2014,
+        2010
+      ],
+      "finalCountByAxis": [
+        7500,
+        7500,
+        7500,
+        7500
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 307947504,
+      "steadyAllocatedBytesPerSimSecond": 4306829.028571429,
+      "heapAt40SecondsBytes": 13000784,
+      "heapAtEndBytes": 13033192,
+      "gen0Collections": 176,
+      "gen1Collections": 175,
+      "gen2Collections": 59,
+      "gcPauseMs": 44.804,
+      "wallSeconds": 0.672851,
+      "finalWindowCounts": [
+        7500,
+        7500,
+        7500,
+        7500
+      ],
+      "finalRetainedSeconds": [
+        9.749,
+        9.749,
+        9.749,
+        9.749
+      ],
+      "finalHistoryRetainedSeconds": [
+        9.749,
+        9.749,
+        9.749,
+        9.749
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        16384,
+        16384,
+        16384,
+        16384
+      ],
+      "finalMeanBits": [
+        6.022334878056972,
+        6.006945194629266,
+        6.0173600617019565,
+        6.004131694499351
+      ],
+      "finalHistogramCounts": [
+        7499,
+        7499,
+        7499,
+        7499
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 587
+          },
+          {
+            "lowerBit": 1,
+            "count": 800
+          },
+          {
+            "lowerBit": 2,
+            "count": 553
+          },
+          {
+            "lowerBit": 3,
+            "count": 277
+          },
+          {
+            "lowerBit": 4,
+            "count": 150
+          },
+          {
+            "lowerBit": 5,
+            "count": 84
+          },
+          {
+            "lowerBit": 6,
+            "count": 37
+          },
+          {
+            "lowerBit": 7,
+            "count": 19
+          },
+          {
+            "lowerBit": 8,
+            "count": 4985
+          },
+          {
+            "lowerBit": 9,
+            "count": 4
+          },
+          {
+            "lowerBit": 10,
+            "count": 2
+          },
+          {
+            "lowerBit": 15,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 600
+          },
+          {
+            "lowerBit": 1,
+            "count": 803
+          },
+          {
+            "lowerBit": 2,
+            "count": 538
+          },
+          {
+            "lowerBit": 3,
+            "count": 312
+          },
+          {
+            "lowerBit": 4,
+            "count": 150
+          },
+          {
+            "lowerBit": 5,
+            "count": 52
+          },
+          {
+            "lowerBit": 6,
+            "count": 43
+          },
+          {
+            "lowerBit": 7,
+            "count": 15
+          },
+          {
+            "lowerBit": 8,
+            "count": 4980
+          },
+          {
+            "lowerBit": 9,
+            "count": 4
+          },
+          {
+            "lowerBit": 10,
+            "count": 1
+          },
+          {
+            "lowerBit": 14,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 595
+          },
+          {
+            "lowerBit": 1,
+            "count": 825
+          },
+          {
+            "lowerBit": 2,
+            "count": 515
+          },
+          {
+            "lowerBit": 3,
+            "count": 306
+          },
+          {
+            "lowerBit": 4,
+            "count": 130
+          },
+          {
+            "lowerBit": 5,
+            "count": 73
+          },
+          {
+            "lowerBit": 6,
+            "count": 49
+          },
+          {
+            "lowerBit": 7,
+            "count": 18
+          },
+          {
+            "lowerBit": 8,
+            "count": 4979
+          },
+          {
+            "lowerBit": 9,
+            "count": 3
+          },
+          {
+            "lowerBit": 10,
+            "count": 2
+          },
+          {
+            "lowerBit": 11,
+            "count": 2
+          },
+          {
+            "lowerBit": 12,
+            "count": 1
+          },
+          {
+            "lowerBit": 13,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 623
+          },
+          {
+            "lowerBit": 1,
+            "count": 799
+          },
+          {
+            "lowerBit": 2,
+            "count": 523
+          },
+          {
+            "lowerBit": 3,
+            "count": 302
+          },
+          {
+            "lowerBit": 4,
+            "count": 157
+          },
+          {
+            "lowerBit": 5,
+            "count": 55
+          },
+          {
+            "lowerBit": 6,
+            "count": 29
+          },
+          {
+            "lowerBit": 7,
+            "count": 21
+          },
+          {
+            "lowerBit": 8,
+            "count": 4983
+          },
+          {
+            "lowerBit": 9,
+            "count": 3
+          },
+          {
+            "lowerBit": 10,
+            "count": 3
+          },
+          {
+            "lowerBit": 16,
+            "count": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 75,
+      "hz": 8000,
+      "pattern": "mixed",
+      "windowSeconds": 10,
+      "engine": "live",
+      "candidateSamplesPerAxis": 600000,
+      "appendedSamplesPerAxis": 450000,
+      "unchangedPollsPerAxis": 150000,
+      "appendP95Ms": 0.4058,
+      "appendP99Ms": 0.9094,
+      "appendMaxMs": 2.4742,
+      "appendPercentileSamples": 750,
+      "analyzeP95Ms": 0.894,
+      "analyzeP99Ms": 1.2613,
+      "analyzeMaxMs": 1.528,
+      "analyzePercentileSamples": 750,
+      "maxWindowCountPerAxis": 60001,
+      "maxDrawPointsPerAxis": 2387,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        60001,
+        60001,
+        60001,
+        60001
+      ],
+      "maximumDrawPointsByAxis": [
+        2377,
+        2384,
+        2379,
+        2387
+      ],
+      "finalCountByAxis": [
+        60000,
+        60000,
+        60000,
+        60000
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 487044480,
+      "steadyAllocatedBytesPerSimSecond": 6791042.742857143,
+      "heapAt40SecondsBytes": 34325096,
+      "heapAtEndBytes": 37571272,
+      "gen0Collections": 154,
+      "gen1Collections": 154,
+      "gen2Collections": 39,
+      "gcPauseMs": 45.219,
+      "wallSeconds": 0.4612597,
+      "finalWindowCounts": [
+        60000,
+        60000,
+        60000,
+        60000
+      ],
+      "finalRetainedSeconds": [
+        9.749875,
+        9.749875,
+        9.749875,
+        9.749875
+      ],
+      "finalHistoryRetainedSeconds": [
+        9.749875,
+        9.749875,
+        9.749875,
+        9.749875
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        75425,
+        75425,
+        75425,
+        75425
+      ],
+      "finalMeanBits": [
+        6.033636552241542,
+        6.030580163105124,
+        6.030446073244377,
+        6.030551183200374
+      ],
+      "finalHistogramCounts": [
+        59998,
+        59999,
+        59998,
+        59999
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 4704
+          },
+          {
+            "lowerBit": 1,
+            "count": 6423
+          },
+          {
+            "lowerBit": 2,
+            "count": 4167
+          },
+          {
+            "lowerBit": 3,
+            "count": 2342
+          },
+          {
+            "lowerBit": 4,
+            "count": 1247
+          },
+          {
+            "lowerBit": 5,
+            "count": 610
+          },
+          {
+            "lowerBit": 6,
+            "count": 331
+          },
+          {
+            "lowerBit": 7,
+            "count": 168
+          },
+          {
+            "lowerBit": 8,
+            "count": 39916
+          },
+          {
+            "lowerBit": 9,
+            "count": 50
+          },
+          {
+            "lowerBit": 10,
+            "count": 20
+          },
+          {
+            "lowerBit": 11,
+            "count": 10
+          },
+          {
+            "lowerBit": 12,
+            "count": 5
+          },
+          {
+            "lowerBit": 13,
+            "count": 3
+          },
+          {
+            "lowerBit": 14,
+            "count": 1
+          },
+          {
+            "lowerBit": 16,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 4839
+          },
+          {
+            "lowerBit": 1,
+            "count": 6275
+          },
+          {
+            "lowerBit": 2,
+            "count": 4200
+          },
+          {
+            "lowerBit": 3,
+            "count": 2356
+          },
+          {
+            "lowerBit": 4,
+            "count": 1225
+          },
+          {
+            "lowerBit": 5,
+            "count": 603
+          },
+          {
+            "lowerBit": 6,
+            "count": 342
+          },
+          {
+            "lowerBit": 7,
+            "count": 166
+          },
+          {
+            "lowerBit": 8,
+            "count": 39918
+          },
+          {
+            "lowerBit": 9,
+            "count": 38
+          },
+          {
+            "lowerBit": 10,
+            "count": 14
+          },
+          {
+            "lowerBit": 11,
+            "count": 10
+          },
+          {
+            "lowerBit": 12,
+            "count": 10
+          },
+          {
+            "lowerBit": 13,
+            "count": 2
+          },
+          {
+            "lowerBit": 15,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 4841
+          },
+          {
+            "lowerBit": 1,
+            "count": 6243
+          },
+          {
+            "lowerBit": 2,
+            "count": 4231
+          },
+          {
+            "lowerBit": 3,
+            "count": 2362
+          },
+          {
+            "lowerBit": 4,
+            "count": 1179
+          },
+          {
+            "lowerBit": 5,
+            "count": 650
+          },
+          {
+            "lowerBit": 6,
+            "count": 325
+          },
+          {
+            "lowerBit": 7,
+            "count": 162
+          },
+          {
+            "lowerBit": 8,
+            "count": 39932
+          },
+          {
+            "lowerBit": 9,
+            "count": 34
+          },
+          {
+            "lowerBit": 10,
+            "count": 20
+          },
+          {
+            "lowerBit": 11,
+            "count": 10
+          },
+          {
+            "lowerBit": 12,
+            "count": 4
+          },
+          {
+            "lowerBit": 13,
+            "count": 2
+          },
+          {
+            "lowerBit": 15,
+            "count": 1
+          },
+          {
+            "lowerBit": 16,
+            "count": 2
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 4763
+          },
+          {
+            "lowerBit": 1,
+            "count": 6426
+          },
+          {
+            "lowerBit": 2,
+            "count": 4145
+          },
+          {
+            "lowerBit": 3,
+            "count": 2281
+          },
+          {
+            "lowerBit": 4,
+            "count": 1249
+          },
+          {
+            "lowerBit": 5,
+            "count": 668
+          },
+          {
+            "lowerBit": 6,
+            "count": 323
+          },
+          {
+            "lowerBit": 7,
+            "count": 156
+          },
+          {
+            "lowerBit": 8,
+            "count": 39901
+          },
+          {
+            "lowerBit": 9,
+            "count": 47
+          },
+          {
+            "lowerBit": 10,
+            "count": 17
+          },
+          {
+            "lowerBit": 11,
+            "count": 13
+          },
+          {
+            "lowerBit": 12,
+            "count": 5
+          },
+          {
+            "lowerBit": 13,
+            "count": 2
+          },
+          {
+            "lowerBit": 14,
+            "count": 2
+          },
+          {
+            "lowerBit": 16,
+            "count": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 75,
+      "hz": 100,
+      "pattern": "mixed",
+      "windowSeconds": 10,
+      "engine": "live",
+      "candidateSamplesPerAxis": 7500,
+      "appendedSamplesPerAxis": 5625,
+      "unchangedPollsPerAxis": 1875,
+      "appendP95Ms": 0.0121,
+      "appendP99Ms": 0.0293,
+      "appendMaxMs": 0.8175,
+      "appendPercentileSamples": 750,
+      "analyzeP95Ms": 0.2092,
+      "analyzeP99Ms": 0.2404,
+      "analyzeMaxMs": 1.0134,
+      "analyzePercentileSamples": 750,
+      "maxWindowCountPerAxis": 751,
+      "maxDrawPointsPerAxis": 751,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        751,
+        751,
+        751,
+        751
+      ],
+      "maximumDrawPointsByAxis": [
+        751,
+        751,
+        751,
+        751
+      ],
+      "finalCountByAxis": [
+        750,
+        750,
+        750,
+        750
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 123554552,
+      "steadyAllocatedBytesPerSimSecond": 1678209.3714285714,
+      "heapAt40SecondsBytes": 10016128,
+      "heapAtEndBytes": 10014216,
+      "gen0Collections": 21,
+      "gen1Collections": 11,
+      "gen2Collections": 5,
+      "gcPauseMs": 11.118,
+      "wallSeconds": 0.1545419,
+      "finalWindowCounts": [
+        750,
+        750,
+        750,
+        750
+      ],
+      "finalRetainedSeconds": [
+        9.74,
+        9.74,
+        9.74,
+        9.74
+      ],
+      "finalHistoryRetainedSeconds": [
+        9.74,
+        9.74,
+        9.74,
+        9.74
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        8192,
+        8192,
+        8192,
+        8192
+      ],
+      "finalMeanBits": [
+        5.938642223354628,
+        5.980070963788203,
+        5.957897066459099,
+        5.9446101274993275
+      ],
+      "finalHistogramCounts": [
+        749,
+        749,
+        749,
+        749
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 58
+          },
+          {
+            "lowerBit": 1,
+            "count": 91
+          },
+          {
+            "lowerBit": 2,
+            "count": 57
+          },
+          {
+            "lowerBit": 3,
+            "count": 23
+          },
+          {
+            "lowerBit": 4,
+            "count": 21
+          },
+          {
+            "lowerBit": 5,
+            "count": 5
+          },
+          {
+            "lowerBit": 6,
+            "count": 4
+          },
+          {
+            "lowerBit": 7,
+            "count": 1
+          },
+          {
+            "lowerBit": 8,
+            "count": 489
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 69
+          },
+          {
+            "lowerBit": 1,
+            "count": 71
+          },
+          {
+            "lowerBit": 2,
+            "count": 54
+          },
+          {
+            "lowerBit": 3,
+            "count": 32
+          },
+          {
+            "lowerBit": 4,
+            "count": 13
+          },
+          {
+            "lowerBit": 5,
+            "count": 11
+          },
+          {
+            "lowerBit": 6,
+            "count": 7
+          },
+          {
+            "lowerBit": 7,
+            "count": 3
+          },
+          {
+            "lowerBit": 8,
+            "count": 488
+          },
+          {
+            "lowerBit": 9,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 64
+          },
+          {
+            "lowerBit": 1,
+            "count": 93
+          },
+          {
+            "lowerBit": 2,
+            "count": 45
+          },
+          {
+            "lowerBit": 3,
+            "count": 27
+          },
+          {
+            "lowerBit": 4,
+            "count": 15
+          },
+          {
+            "lowerBit": 5,
+            "count": 3
+          },
+          {
+            "lowerBit": 6,
+            "count": 3
+          },
+          {
+            "lowerBit": 7,
+            "count": 5
+          },
+          {
+            "lowerBit": 8,
+            "count": 492
+          },
+          {
+            "lowerBit": 9,
+            "count": 2
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 60
+          },
+          {
+            "lowerBit": 1,
+            "count": 88
+          },
+          {
+            "lowerBit": 2,
+            "count": 59
+          },
+          {
+            "lowerBit": 3,
+            "count": 25
+          },
+          {
+            "lowerBit": 4,
+            "count": 12
+          },
+          {
+            "lowerBit": 5,
+            "count": 5
+          },
+          {
+            "lowerBit": 6,
+            "count": 6
+          },
+          {
+            "lowerBit": 7,
+            "count": 4
+          },
+          {
+            "lowerBit": 8,
+            "count": 488
+          },
+          {
+            "lowerBit": 9,
+            "count": 2
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 90,
+      "hz": 1000,
+      "pattern": "random16",
+      "windowSeconds": 30,
+      "engine": "live",
+      "candidateSamplesPerAxis": 90000,
+      "appendedSamplesPerAxis": 90000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.2437,
+      "appendP99Ms": 0.2592,
+      "appendMaxMs": 7.1666,
+      "appendPercentileSamples": 900,
+      "analyzeP95Ms": 1.1767,
+      "analyzeP99Ms": 1.4168,
+      "analyzeMaxMs": 3.4282,
+      "analyzePercentileSamples": 900,
+      "maxWindowCountPerAxis": 30001,
+      "maxDrawPointsPerAxis": 3979,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "maximumDrawPointsByAxis": [
+        3968,
+        3969,
+        3979,
+        3967
+      ],
+      "finalCountByAxis": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 617251888,
+      "steadyAllocatedBytesPerSimSecond": 8083998.4,
+      "heapAt40SecondsBytes": 21931600,
+      "heapAtEndBytes": 22007600,
+      "gen0Collections": 116,
+      "gen1Collections": 114,
+      "gen2Collections": 83,
+      "gcPauseMs": 27.135,
+      "wallSeconds": 0.5477256,
+      "finalWindowCounts": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "finalRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "finalHistoryRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        32768,
+        32768,
+        32768,
+        32768
+      ],
+      "finalMeanBits": [
+        2.131057590490871,
+        2.1531290089581465,
+        2.1736617536478424,
+        2.1622784125985133
+      ],
+      "finalHistogramCounts": [
+        30000,
+        29999,
+        30000,
+        29999
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 7240
+          },
+          {
+            "lowerBit": 1,
+            "count": 9492
+          },
+          {
+            "lowerBit": 2,
+            "count": 6152
+          },
+          {
+            "lowerBit": 3,
+            "count": 3394
+          },
+          {
+            "lowerBit": 4,
+            "count": 1848
+          },
+          {
+            "lowerBit": 5,
+            "count": 932
+          },
+          {
+            "lowerBit": 6,
+            "count": 487
+          },
+          {
+            "lowerBit": 7,
+            "count": 210
+          },
+          {
+            "lowerBit": 8,
+            "count": 137
+          },
+          {
+            "lowerBit": 9,
+            "count": 47
+          },
+          {
+            "lowerBit": 10,
+            "count": 31
+          },
+          {
+            "lowerBit": 11,
+            "count": 15
+          },
+          {
+            "lowerBit": 12,
+            "count": 7
+          },
+          {
+            "lowerBit": 13,
+            "count": 5
+          },
+          {
+            "lowerBit": 14,
+            "count": 3
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 6870
+          },
+          {
+            "lowerBit": 1,
+            "count": 9691
+          },
+          {
+            "lowerBit": 2,
+            "count": 6290
+          },
+          {
+            "lowerBit": 3,
+            "count": 3464
+          },
+          {
+            "lowerBit": 4,
+            "count": 1817
+          },
+          {
+            "lowerBit": 5,
+            "count": 942
+          },
+          {
+            "lowerBit": 6,
+            "count": 498
+          },
+          {
+            "lowerBit": 7,
+            "count": 214
+          },
+          {
+            "lowerBit": 8,
+            "count": 112
+          },
+          {
+            "lowerBit": 9,
+            "count": 56
+          },
+          {
+            "lowerBit": 10,
+            "count": 23
+          },
+          {
+            "lowerBit": 11,
+            "count": 12
+          },
+          {
+            "lowerBit": 12,
+            "count": 5
+          },
+          {
+            "lowerBit": 13,
+            "count": 4
+          },
+          {
+            "lowerBit": 15,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 6903
+          },
+          {
+            "lowerBit": 1,
+            "count": 9525
+          },
+          {
+            "lowerBit": 2,
+            "count": 6237
+          },
+          {
+            "lowerBit": 3,
+            "count": 3539
+          },
+          {
+            "lowerBit": 4,
+            "count": 1895
+          },
+          {
+            "lowerBit": 5,
+            "count": 934
+          },
+          {
+            "lowerBit": 6,
+            "count": 468
+          },
+          {
+            "lowerBit": 7,
+            "count": 232
+          },
+          {
+            "lowerBit": 8,
+            "count": 132
+          },
+          {
+            "lowerBit": 9,
+            "count": 70
+          },
+          {
+            "lowerBit": 10,
+            "count": 33
+          },
+          {
+            "lowerBit": 11,
+            "count": 15
+          },
+          {
+            "lowerBit": 12,
+            "count": 11
+          },
+          {
+            "lowerBit": 13,
+            "count": 3
+          },
+          {
+            "lowerBit": 14,
+            "count": 1
+          },
+          {
+            "lowerBit": 15,
+            "count": 1
+          },
+          {
+            "lowerBit": 16,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 6966
+          },
+          {
+            "lowerBit": 1,
+            "count": 9535
+          },
+          {
+            "lowerBit": 2,
+            "count": 6329
+          },
+          {
+            "lowerBit": 3,
+            "count": 3402
+          },
+          {
+            "lowerBit": 4,
+            "count": 1877
+          },
+          {
+            "lowerBit": 5,
+            "count": 915
+          },
+          {
+            "lowerBit": 6,
+            "count": 485
+          },
+          {
+            "lowerBit": 7,
+            "count": 249
+          },
+          {
+            "lowerBit": 8,
+            "count": 119
+          },
+          {
+            "lowerBit": 9,
+            "count": 62
+          },
+          {
+            "lowerBit": 10,
+            "count": 30
+          },
+          {
+            "lowerBit": 11,
+            "count": 17
+          },
+          {
+            "lowerBit": 12,
+            "count": 7
+          },
+          {
+            "lowerBit": 13,
+            "count": 3
+          },
+          {
+            "lowerBit": 14,
+            "count": 2
+          },
+          {
+            "lowerBit": 16,
+            "count": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 90,
+      "hz": 8000,
+      "pattern": "random16",
+      "windowSeconds": 30,
+      "engine": "live",
+      "candidateSamplesPerAxis": 720000,
+      "appendedSamplesPerAxis": 720000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.4234,
+      "appendP99Ms": 1.4429,
+      "appendMaxMs": 2.6935,
+      "appendPercentileSamples": 900,
+      "analyzeP95Ms": 0.4706,
+      "analyzeP99Ms": 1.8109,
+      "analyzeMaxMs": 2.5791,
+      "analyzePercentileSamples": 900,
+      "maxWindowCountPerAxis": 240001,
+      "maxDrawPointsPerAxis": 4087,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        240001,
+        240001,
+        240001,
+        240001
+      ],
+      "maximumDrawPointsByAxis": [
+        4087,
+        4087,
+        4078,
+        4083
+      ],
+      "finalCountByAxis": [
+        240001,
+        240001,
+        240001,
+        240001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 837942184,
+      "steadyAllocatedBytesPerSimSecond": 10563809.6,
+      "heapAt40SecondsBytes": 106359864,
+      "heapAtEndBytes": 106359816,
+      "gen0Collections": 83,
+      "gen1Collections": 80,
+      "gen2Collections": 29,
+      "gcPauseMs": 34.919,
+      "wallSeconds": 0.6537358,
+      "finalWindowCounts": [
+        240001,
+        240001,
+        240001,
+        240001
+      ],
+      "finalRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "finalHistoryRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        250849,
+        250849,
+        250849,
+        250849
+      ],
+      "finalMeanBits": [
+        2.161227531714006,
+        2.1614837679984538,
+        2.161935244578885,
+        2.16468407565974
+      ],
+      "finalHistogramCounts": [
+        239994,
+        240000,
+        239992,
+        239996
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 56120
+          },
+          {
+            "lowerBit": 1,
+            "count": 76237
+          },
+          {
+            "lowerBit": 2,
+            "count": 49763
+          },
+          {
+            "lowerBit": 3,
+            "count": 27654
+          },
+          {
+            "lowerBit": 4,
+            "count": 14968
+          },
+          {
+            "lowerBit": 5,
+            "count": 7570
+          },
+          {
+            "lowerBit": 6,
+            "count": 3755
+          },
+          {
+            "lowerBit": 7,
+            "count": 1936
+          },
+          {
+            "lowerBit": 8,
+            "count": 1000
+          },
+          {
+            "lowerBit": 9,
+            "count": 504
+          },
+          {
+            "lowerBit": 10,
+            "count": 236
+          },
+          {
+            "lowerBit": 11,
+            "count": 126
+          },
+          {
+            "lowerBit": 12,
+            "count": 51
+          },
+          {
+            "lowerBit": 13,
+            "count": 38
+          },
+          {
+            "lowerBit": 14,
+            "count": 14
+          },
+          {
+            "lowerBit": 15,
+            "count": 13
+          },
+          {
+            "lowerBit": 16,
+            "count": 9
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 55904
+          },
+          {
+            "lowerBit": 1,
+            "count": 76283
+          },
+          {
+            "lowerBit": 2,
+            "count": 49691
+          },
+          {
+            "lowerBit": 3,
+            "count": 28120
+          },
+          {
+            "lowerBit": 4,
+            "count": 14791
+          },
+          {
+            "lowerBit": 5,
+            "count": 7539
+          },
+          {
+            "lowerBit": 6,
+            "count": 3806
+          },
+          {
+            "lowerBit": 7,
+            "count": 1963
+          },
+          {
+            "lowerBit": 8,
+            "count": 964
+          },
+          {
+            "lowerBit": 9,
+            "count": 455
+          },
+          {
+            "lowerBit": 10,
+            "count": 246
+          },
+          {
+            "lowerBit": 11,
+            "count": 117
+          },
+          {
+            "lowerBit": 12,
+            "count": 53
+          },
+          {
+            "lowerBit": 13,
+            "count": 36
+          },
+          {
+            "lowerBit": 14,
+            "count": 19
+          },
+          {
+            "lowerBit": 15,
+            "count": 8
+          },
+          {
+            "lowerBit": 16,
+            "count": 5
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 55742
+          },
+          {
+            "lowerBit": 1,
+            "count": 76285
+          },
+          {
+            "lowerBit": 2,
+            "count": 50092
+          },
+          {
+            "lowerBit": 3,
+            "count": 27910
+          },
+          {
+            "lowerBit": 4,
+            "count": 14591
+          },
+          {
+            "lowerBit": 5,
+            "count": 7672
+          },
+          {
+            "lowerBit": 6,
+            "count": 3859
+          },
+          {
+            "lowerBit": 7,
+            "count": 1919
+          },
+          {
+            "lowerBit": 8,
+            "count": 951
+          },
+          {
+            "lowerBit": 9,
+            "count": 472
+          },
+          {
+            "lowerBit": 10,
+            "count": 256
+          },
+          {
+            "lowerBit": 11,
+            "count": 109
+          },
+          {
+            "lowerBit": 12,
+            "count": 60
+          },
+          {
+            "lowerBit": 13,
+            "count": 38
+          },
+          {
+            "lowerBit": 14,
+            "count": 16
+          },
+          {
+            "lowerBit": 15,
+            "count": 9
+          },
+          {
+            "lowerBit": 16,
+            "count": 11
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 55669
+          },
+          {
+            "lowerBit": 1,
+            "count": 76584
+          },
+          {
+            "lowerBit": 2,
+            "count": 49551
+          },
+          {
+            "lowerBit": 3,
+            "count": 27953
+          },
+          {
+            "lowerBit": 4,
+            "count": 14787
+          },
+          {
+            "lowerBit": 5,
+            "count": 7674
+          },
+          {
+            "lowerBit": 6,
+            "count": 3896
+          },
+          {
+            "lowerBit": 7,
+            "count": 1927
+          },
+          {
+            "lowerBit": 8,
+            "count": 981
+          },
+          {
+            "lowerBit": 9,
+            "count": 501
+          },
+          {
+            "lowerBit": 10,
+            "count": 254
+          },
+          {
+            "lowerBit": 11,
+            "count": 107
+          },
+          {
+            "lowerBit": 12,
+            "count": 66
+          },
+          {
+            "lowerBit": 13,
+            "count": 30
+          },
+          {
+            "lowerBit": 14,
+            "count": 7
+          },
+          {
+            "lowerBit": 15,
+            "count": 5
+          },
+          {
+            "lowerBit": 16,
+            "count": 4
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 90,
+      "hz": 100,
+      "pattern": "random16",
+      "windowSeconds": 30,
+      "engine": "live",
+      "candidateSamplesPerAxis": 9000,
+      "appendedSamplesPerAxis": 9000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.0135,
+      "appendP99Ms": 0.0417,
+      "appendMaxMs": 0.671,
+      "appendPercentileSamples": 900,
+      "analyzeP95Ms": 1.3132,
+      "analyzeP99Ms": 4.1575,
+      "analyzeMaxMs": 34.9427,
+      "analyzePercentileSamples": 900,
+      "maxWindowCountPerAxis": 3001,
+      "maxDrawPointsPerAxis": 2708,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        3001,
+        3001,
+        3001,
+        3001
+      ],
+      "maximumDrawPointsByAxis": [
+        2704,
+        2697,
+        2708,
+        2707
+      ],
+      "finalCountByAxis": [
+        3001,
+        3001,
+        3001,
+        3001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 409010648,
+      "steadyAllocatedBytesPerSimSecond": 5368747.36,
+      "heapAt40SecondsBytes": 12554640,
+      "heapAtEndBytes": 15929496,
+      "gen0Collections": 172,
+      "gen1Collections": 168,
+      "gen2Collections": 68,
+      "gcPauseMs": 54.847,
+      "wallSeconds": 0.4598097,
+      "finalWindowCounts": [
+        3001,
+        3001,
+        3001,
+        3001
+      ],
+      "finalRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "finalHistoryRetainedSeconds": [
+        30,
+        30,
+        30,
+        30
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        16384,
+        16384,
+        16384,
+        16384
+      ],
+      "finalMeanBits": [
+        2.1857346184090862,
+        2.211354425511913,
+        2.1509462937946413,
+        2.172580437438819
+      ],
+      "finalHistogramCounts": [
+        3000,
+        3000,
+        2999,
+        3000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 672
+          },
+          {
+            "lowerBit": 1,
+            "count": 955
+          },
+          {
+            "lowerBit": 2,
+            "count": 614
+          },
+          {
+            "lowerBit": 3,
+            "count": 379
+          },
+          {
+            "lowerBit": 4,
+            "count": 188
+          },
+          {
+            "lowerBit": 5,
+            "count": 99
+          },
+          {
+            "lowerBit": 6,
+            "count": 50
+          },
+          {
+            "lowerBit": 7,
+            "count": 18
+          },
+          {
+            "lowerBit": 8,
+            "count": 13
+          },
+          {
+            "lowerBit": 9,
+            "count": 7
+          },
+          {
+            "lowerBit": 10,
+            "count": 2
+          },
+          {
+            "lowerBit": 11,
+            "count": 2
+          },
+          {
+            "lowerBit": 12,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 688
+          },
+          {
+            "lowerBit": 1,
+            "count": 950
+          },
+          {
+            "lowerBit": 2,
+            "count": 632
+          },
+          {
+            "lowerBit": 3,
+            "count": 338
+          },
+          {
+            "lowerBit": 4,
+            "count": 180
+          },
+          {
+            "lowerBit": 5,
+            "count": 99
+          },
+          {
+            "lowerBit": 6,
+            "count": 56
+          },
+          {
+            "lowerBit": 7,
+            "count": 27
+          },
+          {
+            "lowerBit": 8,
+            "count": 7
+          },
+          {
+            "lowerBit": 9,
+            "count": 9
+          },
+          {
+            "lowerBit": 10,
+            "count": 5
+          },
+          {
+            "lowerBit": 11,
+            "count": 3
+          },
+          {
+            "lowerBit": 12,
+            "count": 6
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 666
+          },
+          {
+            "lowerBit": 1,
+            "count": 986
+          },
+          {
+            "lowerBit": 2,
+            "count": 627
+          },
+          {
+            "lowerBit": 3,
+            "count": 368
+          },
+          {
+            "lowerBit": 4,
+            "count": 176
+          },
+          {
+            "lowerBit": 5,
+            "count": 86
+          },
+          {
+            "lowerBit": 6,
+            "count": 47
+          },
+          {
+            "lowerBit": 7,
+            "count": 27
+          },
+          {
+            "lowerBit": 8,
+            "count": 9
+          },
+          {
+            "lowerBit": 9,
+            "count": 3
+          },
+          {
+            "lowerBit": 10,
+            "count": 1
+          },
+          {
+            "lowerBit": 11,
+            "count": 2
+          },
+          {
+            "lowerBit": 12,
+            "count": 1
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 665
+          },
+          {
+            "lowerBit": 1,
+            "count": 987
+          },
+          {
+            "lowerBit": 2,
+            "count": 617
+          },
+          {
+            "lowerBit": 3,
+            "count": 372
+          },
+          {
+            "lowerBit": 4,
+            "count": 175
+          },
+          {
+            "lowerBit": 5,
+            "count": 89
+          },
+          {
+            "lowerBit": 6,
+            "count": 45
+          },
+          {
+            "lowerBit": 7,
+            "count": 27
+          },
+          {
+            "lowerBit": 8,
+            "count": 9
+          },
+          {
+            "lowerBit": 9,
+            "count": 8
+          },
+          {
+            "lowerBit": 10,
+            "count": 2
+          },
+          {
+            "lowerBit": 11,
+            "count": 3
+          },
+          {
+            "lowerBit": 12,
+            "count": 1
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 150,
+      "hz": 1000,
+      "pattern": "quantized",
+      "windowSeconds": 60,
+      "engine": "live",
+      "candidateSamplesPerAxis": 150000,
+      "appendedSamplesPerAxis": 150000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.242,
+      "appendP99Ms": 0.2671,
+      "appendMaxMs": 6.3261,
+      "appendPercentileSamples": 1500,
+      "analyzeP95Ms": 0.7372,
+      "analyzeP99Ms": 1.3097,
+      "analyzeMaxMs": 3.5492,
+      "analyzePercentileSamples": 1500,
+      "maxWindowCountPerAxis": 60001,
+      "maxDrawPointsPerAxis": 2503,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        60001,
+        60001,
+        60001,
+        60001
+      ],
+      "maximumDrawPointsByAxis": [
+        2502,
+        2503,
+        2502,
+        2502
+      ],
+      "finalCountByAxis": [
+        60001,
+        60001,
+        60001,
+        60001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 645661016,
+      "steadyAllocatedBytesPerSimSecond": 5095013.672727273,
+      "heapAt40SecondsBytes": 24223312,
+      "heapAtEndBytes": 38472696,
+      "gen0Collections": 100,
+      "gen1Collections": 92,
+      "gen2Collections": 56,
+      "gcPauseMs": 25.334,
+      "wallSeconds": 0.8103981,
+      "finalWindowCounts": [
+        60001,
+        60001,
+        60001,
+        60001
+      ],
+      "finalRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "finalHistoryRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        73728,
+        73728,
+        73728,
+        73728
+      ],
+      "finalMeanBits": [
+        7.963175458455108,
+        7.963042219231161,
+        7.963042219231161,
+        7.963042219231161
+      ],
+      "finalHistogramCounts": [
+        60000,
+        60000,
+        60000,
+        60000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 234
+          },
+          {
+            "lowerBit": 8,
+            "count": 59766
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 235
+          },
+          {
+            "lowerBit": 8,
+            "count": 59765
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 235
+          },
+          {
+            "lowerBit": 8,
+            "count": 59765
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 235
+          },
+          {
+            "lowerBit": 8,
+            "count": 59765
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 150,
+      "hz": 8000,
+      "pattern": "quantized",
+      "windowSeconds": 60,
+      "engine": "live",
+      "candidateSamplesPerAxis": 1200000,
+      "appendedSamplesPerAxis": 1200000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.4025,
+      "appendP99Ms": 0.4763,
+      "appendMaxMs": 4.012,
+      "appendPercentileSamples": 1500,
+      "analyzeP95Ms": 0.394,
+      "analyzeP99Ms": 1.3447,
+      "analyzeMaxMs": 2.948,
+      "analyzePercentileSamples": 1500,
+      "maxWindowCountPerAxis": 480001,
+      "maxDrawPointsPerAxis": 4090,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        480001,
+        480001,
+        480001,
+        480001
+      ],
+      "maximumDrawPointsByAxis": [
+        4087,
+        4087,
+        4090,
+        4087
+      ],
+      "finalCountByAxis": [
+        480001,
+        480001,
+        480001,
+        480001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 1345115768,
+      "steadyAllocatedBytesPerSimSecond": 10250859.2,
+      "heapAt40SecondsBytes": 134766784,
+      "heapAtEndBytes": 197149304,
+      "gen0Collections": 79,
+      "gen1Collections": 72,
+      "gen2Collections": 31,
+      "gcPauseMs": 35.821,
+      "wallSeconds": 0.9758643,
+      "finalWindowCounts": [
+        480001,
+        480001,
+        480001,
+        480001
+      ],
+      "finalRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "finalHistoryRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        485313,
+        485313,
+        485313,
+        485313
+      ],
+      "finalMeanBits": [
+        7.963125493746127,
+        7.963125493746127,
+        7.963125493746127,
+        7.963125493746127
+      ],
+      "finalHistogramCounts": [
+        480000,
+        480000,
+        480000,
+        480000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 1875
+          },
+          {
+            "lowerBit": 8,
+            "count": 478125
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1875
+          },
+          {
+            "lowerBit": 8,
+            "count": 478125
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1875
+          },
+          {
+            "lowerBit": 8,
+            "count": 478125
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1875
+          },
+          {
+            "lowerBit": 8,
+            "count": 478125
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 150,
+      "hz": 100,
+      "pattern": "quantized",
+      "windowSeconds": 60,
+      "engine": "live",
+      "candidateSamplesPerAxis": 15000,
+      "appendedSamplesPerAxis": 15000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.0076,
+      "appendP99Ms": 0.009,
+      "appendMaxMs": 0.0381,
+      "appendPercentileSamples": 1500,
+      "analyzeP95Ms": 0.4804,
+      "analyzeP99Ms": 1.3697,
+      "analyzeMaxMs": 1.7703,
+      "analyzePercentileSamples": 1500,
+      "maxWindowCountPerAxis": 6001,
+      "maxDrawPointsPerAxis": 2082,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        6001,
+        6001,
+        6001,
+        6001
+      ],
+      "maximumDrawPointsByAxis": [
+        2080,
+        2082,
+        2082,
+        2082
+      ],
+      "finalCountByAxis": [
+        6001,
+        6001,
+        6001,
+        6001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 503396024,
+      "steadyAllocatedBytesPerSimSecond": 3998274.981818182,
+      "heapAt40SecondsBytes": 11901040,
+      "heapAtEndBytes": 13629704,
+      "gen0Collections": 140,
+      "gen1Collections": 131,
+      "gen2Collections": 60,
+      "gcPauseMs": 34.965,
+      "wallSeconds": 0.4215763,
+      "finalWindowCounts": [
+        6001,
+        6001,
+        6001,
+        6001
+      ],
+      "finalRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "finalHistoryRetainedSeconds": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        8192,
+        8192,
+        8192,
+        8192
+      ],
+      "finalMeanBits": [
+        7.963708415350899,
+        7.963708415350899,
+        7.963708415350899,
+        7.962376023111422
+      ],
+      "finalHistogramCounts": [
+        6000,
+        6000,
+        6000,
+        6000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 23
+          },
+          {
+            "lowerBit": 8,
+            "count": 5977
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 23
+          },
+          {
+            "lowerBit": 8,
+            "count": 5977
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 23
+          },
+          {
+            "lowerBit": 8,
+            "count": 5977
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 24
+          },
+          {
+            "lowerBit": 8,
+            "count": 5976
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 420,
+      "hz": 1000,
+      "pattern": "quantized",
+      "windowSeconds": 300,
+      "engine": "live",
+      "candidateSamplesPerAxis": 420000,
+      "appendedSamplesPerAxis": 420000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.2174,
+      "appendP99Ms": 0.2352,
+      "appendMaxMs": 6.2599,
+      "appendPercentileSamples": 4200,
+      "analyzeP95Ms": 0.3949,
+      "analyzeP99Ms": 1.2159,
+      "analyzeMaxMs": 4.8004,
+      "analyzePercentileSamples": 4200,
+      "maxWindowCountPerAxis": 300001,
+      "maxDrawPointsPerAxis": 4089,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        300001,
+        300001,
+        300001,
+        300001
+      ],
+      "maximumDrawPointsByAxis": [
+        4088,
+        4088,
+        4088,
+        4089
+      ],
+      "finalCountByAxis": [
+        300001,
+        300001,
+        300001,
+        300001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 2294149008,
+      "steadyAllocatedBytesPerSimSecond": 5912680.968421052,
+      "heapAt40SecondsBytes": 27857392,
+      "heapAtEndBytes": 136252048,
+      "gen0Collections": 126,
+      "gen1Collections": 99,
+      "gen2Collections": 85,
+      "gcPauseMs": 31.399,
+      "wallSeconds": 1.5865767,
+      "finalWindowCounts": [
+        300001,
+        300001,
+        300001,
+        300001
+      ],
+      "finalRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "finalHistoryRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        311296,
+        311296,
+        311296,
+        311296
+      ],
+      "finalMeanBits": [
+        7.96312216276553,
+        7.96312216276553,
+        7.96314881061032,
+        7.96312216276553
+      ],
+      "finalHistogramCounts": [
+        300000,
+        300000,
+        300000,
+        300000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 1172
+          },
+          {
+            "lowerBit": 8,
+            "count": 298828
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1172
+          },
+          {
+            "lowerBit": 8,
+            "count": 298828
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1171
+          },
+          {
+            "lowerBit": 8,
+            "count": 298829
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 1172
+          },
+          {
+            "lowerBit": 8,
+            "count": 298828
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 420,
+      "hz": 8000,
+      "pattern": "quantized",
+      "windowSeconds": 300,
+      "engine": "live",
+      "candidateSamplesPerAxis": 3360000,
+      "appendedSamplesPerAxis": 3360000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.3926,
+      "appendP99Ms": 0.4635,
+      "appendMaxMs": 2.8247,
+      "appendPercentileSamples": 4200,
+      "analyzeP95Ms": 0.3892,
+      "analyzeP99Ms": 0.4522,
+      "analyzeMaxMs": 11.5251,
+      "analyzePercentileSamples": 4200,
+      "maxWindowCountPerAxis": 2400001,
+      "maxDrawPointsPerAxis": 4090,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        2400001,
+        2400001,
+        2400001,
+        2400001
+      ],
+      "maximumDrawPointsByAxis": [
+        4087,
+        4087,
+        4090,
+        4087
+      ],
+      "finalCountByAxis": [
+        2400001,
+        2400001,
+        2400001,
+        2400001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 3233238056,
+      "steadyAllocatedBytesPerSimSecond": 8142773.6,
+      "heapAt40SecondsBytes": 140031280,
+      "heapAtEndBytes": 959213224,
+      "gen0Collections": 79,
+      "gen1Collections": 42,
+      "gen2Collections": 28,
+      "gcPauseMs": 49.917,
+      "wallSeconds": 2.207814,
+      "finalWindowCounts": [
+        2400001,
+        2400001,
+        2400001,
+        2400001
+      ],
+      "finalRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "finalHistoryRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        2401985,
+        2401985,
+        2401985,
+        2401985
+      ],
+      "finalMeanBits": [
+        7.963125493746128,
+        7.963125493746128,
+        7.963125493746128,
+        7.963125493746128
+      ],
+      "finalHistogramCounts": [
+        2400000,
+        2400000,
+        2400000,
+        2400000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 9375
+          },
+          {
+            "lowerBit": 8,
+            "count": 2390625
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 9375
+          },
+          {
+            "lowerBit": 8,
+            "count": 2390625
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 9375
+          },
+          {
+            "lowerBit": 8,
+            "count": 2390625
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 9375
+          },
+          {
+            "lowerBit": 8,
+            "count": 2390625
+          }
+        ]
+      ]
+    },
+    {
+      "kind": "virtual_summary",
+      "simulatedSeconds": 420,
+      "hz": 100,
+      "pattern": "quantized",
+      "windowSeconds": 300,
+      "engine": "live",
+      "candidateSamplesPerAxis": 42000,
+      "appendedSamplesPerAxis": 42000,
+      "unchangedPollsPerAxis": 0,
+      "appendP95Ms": 0.0065,
+      "appendP99Ms": 0.0077,
+      "appendMaxMs": 6.6008,
+      "appendPercentileSamples": 4200,
+      "analyzeP95Ms": 0.3016,
+      "analyzeP99Ms": 0.3767,
+      "analyzeMaxMs": 2.3609,
+      "analyzePercentileSamples": 4200,
+      "maxWindowCountPerAxis": 30001,
+      "maxDrawPointsPerAxis": 2270,
+      "axisOrder": [
+        "LX",
+        "LY",
+        "RX",
+        "RY"
+      ],
+      "maximumCountByAxis": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "maximumDrawPointsByAxis": [
+        2270,
+        2268,
+        2270,
+        2270
+      ],
+      "finalCountByAxis": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "finalAcquisitionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "finalProjectionTruncatedByAxis": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "acquisitionTruncated": false,
+      "projectionTruncated": false,
+      "maxHistoryCoverageLossSeconds": 0,
+      "cumulativeAllocatedBytes": 1228959056,
+      "steadyAllocatedBytesPerSimSecond": 3162382.547368421,
+      "heapAt40SecondsBytes": 15540360,
+      "heapAtEndBytes": 33630616,
+      "gen0Collections": 77,
+      "gen1Collections": 29,
+      "gen2Collections": 23,
+      "gcPauseMs": 28.454,
+      "wallSeconds": 0.8506899,
+      "finalWindowCounts": [
+        30001,
+        30001,
+        30001,
+        30001
+      ],
+      "finalRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "finalHistoryRetainedSeconds": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "allocatedRawSampleSlotsByAxis": [
+        40960,
+        40960,
+        40960,
+        40960
+      ],
+      "finalMeanBits": [
+        7.962908980007214,
+        7.963175458455108,
+        7.963175458455108,
+        7.963175458455108
+      ],
+      "finalHistogramCounts": [
+        30000,
+        30000,
+        30000,
+        30000
+      ],
+      "finalHistogramBins": [
+        [
+          {
+            "lowerBit": 0,
+            "count": 118
+          },
+          {
+            "lowerBit": 8,
+            "count": 29882
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 117
+          },
+          {
+            "lowerBit": 8,
+            "count": 29883
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 117
+          },
+          {
+            "lowerBit": 8,
+            "count": 29883
+          }
+        ],
+        [
+          {
+            "lowerBit": 0,
+            "count": 117
+          },
+          {
+            "lowerBit": 8,
+            "count": 29883
+          }
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0</TargetFramework></PropertyGroup>
+<PropertyGroup><IsTestProject>true</IsTestProject><IsPackable>false</IsPackable></PropertyGroup>
+<ItemGroup><ProjectReference Include="../../src/Gpss.Application/Gpss.Application.csproj" /><ProjectReference Include="../../src/Gpss.Input.Simulation/Gpss.Input.Simulation.csproj" /><PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1"/><PackageReference Include="xunit" Version="2.9.3"/><PackageReference Include="xunit.runner.visualstudio" Version="3.1.4"><PrivateAssets>all</PrivateAssets></PackageReference><Using Include="Xunit"/></ItemGroup>
+<ItemGroup><Compile Include="../../src/Gpss.Desktop/PerformanceJsonlWriter.cs" Link="Shared/PerformanceJsonlWriter.cs" /></ItemGroup>
+</Project>

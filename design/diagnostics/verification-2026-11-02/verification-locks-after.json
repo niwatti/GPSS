@@ -1,0 +1,18 @@
+{
+  "src/Gpss.Application/packages.lock.json": "5aad6213bfddad05b3fbd019d0ec30c7f5499327fe8c622183645c60312e55c7",
+  "src/Gpss.Cli/packages.lock.json": "962346cb32b7e40dc83e3a7dcfa8f0004cfa6588ea7d66c22d3ebb9727c77446",
+  "src/Gpss.Core/packages.lock.json": "c30b149eb0b6c271aabe8d79d7b0318ba25f0bbd2ebf6a08faa3b67056bce9b3",
+  "src/Gpss.Desktop/packages.lock.json": "e15dd347c28343f938e30daede5ae18dc15197e61867ad9a5f8caf59db0bb8eb",
+  "src/Gpss.Input.Abstractions/packages.lock.json": "a9b405be5edd709fac5e73d157aea5f0602f90d62875bb45c0efabb9c0f3e5fe",
+  "src/Gpss.Input.HidDirect/packages.lock.json": "5aad6213bfddad05b3fbd019d0ec30c7f5499327fe8c622183645c60312e55c7",
+  "src/Gpss.Input.Simulation/packages.lock.json": "5aad6213bfddad05b3fbd019d0ec30c7f5499327fe8c622183645c60312e55c7",
+  "src/Gpss.Input.XInput/packages.lock.json": "5aad6213bfddad05b3fbd019d0ec30c7f5499327fe8c622183645c60312e55c7",
+  "src/Gpss.Recording/packages.lock.json": "5aad6213bfddad05b3fbd019d0ec30c7f5499327fe8c622183645c60312e55c7",
+  "tests/Gpss.Application.Tests/packages.lock.json": "09c550dde4ae865484ba0980911d305b49fb27baa308ec77386c663658d99031",
+  "tests/Gpss.Cli.Tests/packages.lock.json": "e7a6fe4303b4d7905b8f863946b28efbda59490676f26cf7fc3f7a1160381e8f",
+  "tests/Gpss.Core.Tests/packages.lock.json": "73690f5dab2280dab2ba6588de5a54078c148ae044ebaa03214cad81a145594e",
+  "tests/Gpss.Desktop.Tests/packages.lock.json": "597838cbf2ebcb6cb01ff7577680fb86e72a7d5a5134c6d43413984eb1539782",
+  "tests/Gpss.HidDirect.Tests/packages.lock.json": "d0d396519a0a85acfb12c9b527671be68d4946208630024f95b1c3b4877972d3",
+  "tests/Gpss.XInput.Tests/packages.lock.json": "353ad955c22f218bb0fdc3cb8041237c0679eb7a282c260d3eb0b0013183ce3c",
+  "tools/Gpss.Benchmarks/packages.lock.json": "8fc2167857d3120653f51b821ac8258b076651d4ff387c3b3ac1bb6232fa70c3"
+}

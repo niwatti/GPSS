@@ -1,0 +1,17 @@
+{
+  "src/Gpss.Core/AxisWindow.cs": "d51a55c02a00492bf5d7b007ed32a8e51118e9512834ccf4132b4c373a68f1fd",
+  "src/Gpss.Core/JitterCalculator.cs": "583cc442c3a7becc1f59591d4d8ecbaac0fb47963e4e669920156333aa8fb07d",
+  "src/Gpss.Core/StepEstimator.cs": "b99ed41603ad291a0845c36ac477fb61c3186c9e463808a3b89d73092e76f488",
+  "src/Gpss.Core/HistoryProjection.cs": "c4b8b17bedcfad90596350bc56a1421eb91c87ad53338681c36c5d290f1c6845",
+  "src/Gpss.Application/GpssController.cs": "d531627b42c7a1a2225a786889d0094241474605855eace5eed962439229a88c",
+  "src/Gpss.Input.Abstractions/InputSourceBase.cs": "41ce88a2bb0e58b4d037d443e58f0b6122ae7bea4deaceed7b4ed18201aee81c",
+  "src/Gpss.Input.XInput/XInputSource.cs": "b9143c19f00b2363d34740a6276db1caedeba49055183a9714b20ddd402cb438",
+  "src/Gpss.Desktop/MainWindow.cs": "e1c6300e9c48050fc9754bab2c18f710f92fe51e650f7992d9689266e83e05d8",
+  "src/Gpss.Desktop/StickPanel.cs": "6609650af8005ccdd9023d8f55406a13efb8441d297553f94bb64229981021fa",
+  "src/Gpss.Desktop/HistoryControl.cs": "8378c25415cba52307257dcccdf9e68d0a8597d2fd6cade4e0ae7a4e8556798e",
+  "src/Gpss.Desktop/StickControl.cs": "a0bc84a3e9a51886afc005a66e6dd42a4f0d9ef909e642565ee3819d2524c5df",
+  "src/Gpss.Core/bin/Release/net10.0/Gpss.Core.dll": "66958ee94ad90682f8508d4518059ef2c74aa8eb0adf4820773fc10fb4ba882f",
+  "src/Gpss.Application/bin/Release/net10.0/Gpss.Application.dll": "dc72a478b68135c0f35a76d76d7b19f6c41615e7e7f2e75999da63af8c135220",
+  "src/Gpss.Input.Abstractions/bin/Release/net10.0/Gpss.Input.Abstractions.dll": "49184d1b737a40c9ce3e2ee2c101c667d7583f414c33eac3d042922013153e2d",
+  "src/Gpss.Input.XInput/bin/Release/net10.0/Gpss.Input.XInput.dll": "0962ce2945c5404e1fb1745754f7f1a98df3ec6405084d8e40bc3c5c8f63d3d4"
+}

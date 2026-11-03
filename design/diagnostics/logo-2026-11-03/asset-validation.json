@@ -1,0 +1,25 @@
+{
+  "generationMode": "built-in image_gen",
+  "masterPixels": [
+    1254,
+    1254
+  ],
+  "transparentBackground": true,
+  "iconPixels": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ],
+  "assetHashes": {
+    "assets/branding/gpss-logo.png": "cabae3e2da077a59be5c39026e56bad209d0f4cdbaee11b1e922d775a262408c",
+    "assets/branding/gpss.ico": "a157252940c05a5d57de43713c243c9beb27af0749a8749543a73f1d7de7300d",
+    "assets/branding/README.md": "e9ec2d270117d1db2b7fa272853157c76c781ac439845508d8479325fbbaaca8"
+  },
+  "windowsExecuted": false
+}

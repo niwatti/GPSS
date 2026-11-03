@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "outputDirectory": "artifacts/win-x64",
+  "zipFileCount": 203,
+  "zipBytes": 93305211,
+  "zipSha256": "2954429671da00b553a39160df02b123a5011e7244b9c6cd56887df3f0e4529a",
+  "allManifestHashesMatched": true,
+  "zipCrcPassed": true,
+  "canonicalDirectoryAndZipContentsMatch": true,
+  "latestExecutablesUnchanged": {
+    "artifacts/win-x64/cli/Gpss.Cli.exe": "66a586fee64b8bd0bc51df5f3e567e420a292e526249236bcd575f09f3823841",
+    "artifacts/win-x64/desktop/Gpss.Desktop.exe": "7d975ee67eaebf4304a889c352f7eb86091ba8883bbcf37e336630177498e9d2"
+  },
+  "windowsExecuted": false
+}

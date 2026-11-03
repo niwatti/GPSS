@@ -1,0 +1,18 @@
+{
+  "executables": [
+    {
+      "file": "desktop/Gpss.Desktop.exe",
+      "bytes": 140186206,
+      "sha256": "5d9cef5176c296b1e9c6794f11f2715f3cc5652ce6743303febaa0aaeeb3b8fb"
+    },
+    {
+      "file": "cli/Gpss.Cli.exe",
+      "bytes": 73929724,
+      "sha256": "b71fc3809306d246ba5ab3fefac5807ff23e5efdda881d65acc4f5b7f05fa23e"
+    }
+  ],
+  "testsExecuted": false,
+  "benchmarksExecuted": false,
+  "windowsExecutionTested": false,
+  "reason": "User requested skipping tests pending additional changes; only publishing and packaging performed."
+}

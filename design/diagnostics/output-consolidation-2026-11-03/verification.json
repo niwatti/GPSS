@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "distributionRoots": [
+    "win-x64"
+  ],
+  "distributionExeCount": 2,
+  "appAndBrandingSourcesUnchanged": true,
+  "exeHashesUnchangedFromLogoRelease": true,
+  "temporaryOutputDirectoriesRemoved": 10,
+  "windowsExecuted": false,
+  "powershellExecuted": false
+}

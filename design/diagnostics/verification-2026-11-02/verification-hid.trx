@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="ee86a1eb-101a-455a-b420-47a4093566d1" name="@MacBook-Air 2026-11-02 21:29:06" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-02T21:29:06.5929510+09:00" queuing="2026-11-02T21:29:06.5929510+09:00" start="2026-11-02T21:29:05.3301740+09:00" finish="2026-11-02T21:29:06.6023890+09:00" />
+  <TestSettings name="default" id="33d0d1d3-d25e-4dfd-9d5f-0b7826c0756e">
+    <Deployment runDeploymentRoot="_MacBook-Air_2026-11-02_21_29_06" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="b24d3d9f-6e08-4de5-8b2b-b582c7feaea4" testId="76d72a87-dcc8-a540-2ebb-71e8ee0f252b" testName="Gpss.HidDirect.Tests.HidSourceTests.RestartReopensDescriptorAndOldSessionCannotLeak" computerName="MacBook-Air" duration="00:00:00.0067366" startTime="2026-11-02T21:29:06.4152730+09:00" endTime="2026-11-02T21:29:06.4220690+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b24d3d9f-6e08-4de5-8b2b-b582c7feaea4" />
+    <UnitTestResult executionId="a3ce7305-e74c-4c31-b221-5299a6d2c948" testId="a4a8b16b-ba88-ffe4-0f1a-a863266ef0d0" testName="Gpss.HidDirect.Tests.HidDescriptorTests.WindowsSdkLayoutsAreExplicit" computerName="MacBook-Air" duration="00:00:00.0261307" startTime="2026-11-02T21:29:06.3312130+09:00" endTime="2026-11-02T21:29:06.3602620+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a3ce7305-e74c-4c31-b221-5299a6d2c948" />
+    <UnitTestResult executionId="2960aa18-d0bc-4a8e-ad55-1cfe428cf354" testId="60e64825-4027-ca4e-48ff-650d968f8432" testName="Gpss.HidDirect.Tests.HidSourceTests.DecodedAuxiliaryValuesArePublishedOnTheirReportFrame" computerName="MacBook-Air" duration="00:00:00.0456859" startTime="2026-11-02T21:29:06.3317670+09:00" endTime="2026-11-02T21:29:06.3798160+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2960aa18-d0bc-4a8e-ad55-1cfe428cf354" />
+    <UnitTestResult executionId="776562ac-6164-4b7c-99d1-07dd4878ecde" testId="8c1023ad-d4e4-a91f-22cc-97d6f7fd470a" testName="Gpss.HidDirect.Tests.HidSourceTests.InvalidInputBreaksContinuityBeforeNextValidReading" computerName="MacBook-Air" duration="00:00:00.0073420" startTime="2026-11-02T21:29:06.3803160+09:00" endTime="2026-11-02T21:29:06.3878210+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="776562ac-6164-4b7c-99d1-07dd4878ecde" />
+    <UnitTestResult executionId="5612bcae-4413-42d5-841e-58b4165dadca" testId="3b3099fc-46f4-6abe-b24a-d47ac5333dbf" testName="Gpss.HidDirect.Tests.HidDescriptorTests.OffWindowsNativeCatalogFailsClearly" computerName="MacBook-Air" duration="00:00:00.0006394" startTime="2026-11-02T21:29:06.3650760+09:00" endTime="2026-11-02T21:29:06.3650940+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5612bcae-4413-42d5-841e-58b4165dadca" />
+    <UnitTestResult executionId="e8505034-cbfd-4d2e-b538-6fb8c750c805" testId="b282a7a5-5103-125d-3724-ab90841e38a5" testName="Gpss.HidDirect.Tests.HidDescriptorTests.DecoderRegistryDoesNotGuessUnrecognizedDevices" computerName="MacBook-Air" duration="00:00:00.0002302" startTime="2026-11-02T21:29:06.3645270+09:00" endTime="2026-11-02T21:29:06.3645590+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8505034-cbfd-4d2e-b538-6fb8c750c805" />
+    <UnitTestResult executionId="f767fea8-4dc8-44d1-a3f1-537eb215eafe" testId="e27e79a5-bf1d-2459-e50c-27bfad137b68" testName="Gpss.HidDirect.Tests.HidSourceTests.BoundedQueueReportsLossAndNextSuccessfulFrameBreaksEdge" computerName="MacBook-Air" duration="00:00:00.0244575" startTime="2026-11-02T21:29:06.4221560+09:00" endTime="2026-11-02T21:29:06.4468210+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f767fea8-4dc8-44d1-a3f1-537eb215eafe" />
+    <UnitTestResult executionId="f9fefa8f-9e51-47b0-97ee-1d51dbb305bb" testId="f229a89f-fa4f-c333-6321-4952d3fb9769" testName="Gpss.HidDirect.Tests.HidDescriptorTests.UnsupportedArraysRelativeValuesAndInvalidRangesAreExplained" computerName="MacBook-Air" duration="00:00:00.0033918" startTime="2026-11-02T21:29:06.3774870+09:00" endTime="2026-11-02T21:29:06.3775100+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f9fefa8f-9e51-47b0-97ee-1d51dbb305bb" />
+    <UnitTestResult executionId="494586ed-d4ce-467a-9519-12db5a204220" testId="46442eea-7059-1cd7-fba0-dea243ca35ce" testName="Gpss.HidDirect.Tests.HidSourceTests.CancellationCompletesOutstandingReadBeforeDisposal" computerName="MacBook-Air" duration="00:00:00.0006233" startTime="2026-11-02T21:29:06.3879610+09:00" endTime="2026-11-02T21:29:06.3884910+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="494586ed-d4ce-467a-9519-12db5a204220" />
+    <UnitTestResult executionId="3a9eb9e9-9526-4dbc-8e53-6ff5e6a64dcb" testId="fa728427-67a8-5f67-8e19-63a7d7c295e4" testName="Gpss.HidDirect.Tests.HidSourceTests.AReadDisconnectUpdatesStatusAndDisposesConnection" computerName="MacBook-Air" duration="00:00:00.0039111" startTime="2026-11-02T21:29:06.4046740+09:00" endTime="2026-11-02T21:29:06.4084960+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3a9eb9e9-9526-4dbc-8e53-6ff5e6a64dcb" />
+    <UnitTestResult executionId="3b0d0a14-ae8c-41e9-a858-4e5fcbb07372" testId="65237b7c-9314-6b60-11eb-a177fc34db20" testName="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 12, value: 4095, expected: -1)" computerName="MacBook-Air" duration="00:00:00.0001328" startTime="2026-11-02T21:29:06.3648760+09:00" endTime="2026-11-02T21:29:06.3648960+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3b0d0a14-ae8c-41e9-a858-4e5fcbb07372" />
+    <UnitTestResult executionId="20af6345-7f63-4a8d-89d2-37ce7bc5aa98" testId="17d33cee-65e9-9411-73f7-407da0dacf36" testName="Gpss.HidDirect.Tests.HidDescriptorTests.NullAndOutOfRangeValuesAreRejectedRatherThanClamped" computerName="MacBook-Air" duration="00:00:00.0001559" startTime="2026-11-02T21:29:06.3651450+09:00" endTime="2026-11-02T21:29:06.3651670+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20af6345-7f63-4a8d-89d2-37ce7bc5aa98" />
+    <UnitTestResult executionId="8a2b1a6c-9b32-4418-a495-6b7709a45488" testId="7bc18521-9d11-dc8a-d559-a973e3b16706" testName="Gpss.HidDirect.Tests.HidDescriptorTests.RangeAndNotRangeUseDistinctUsageKeys" computerName="MacBook-Air" duration="00:00:00.0017556" startTime="2026-11-02T21:29:06.3772340+09:00" endTime="2026-11-02T21:29:06.3772710+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2b1a6c-9b32-4418-a495-6b7709a45488" />
+    <UnitTestResult executionId="f79e9227-4f7e-4853-b108-19362193880b" testId="398d5436-2546-c52e-5f7e-4cac06452d8a" testName="Gpss.HidDirect.Tests.HidDescriptorTests.Unsigned32AndSigned32BoundariesAreInterpretedWithoutIntShiftOverflow" computerName="MacBook-Air" duration="00:00:00.0001119" startTime="2026-11-02T21:29:06.3774050+09:00" endTime="2026-11-02T21:29:06.3774290+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f79e9227-4f7e-4853-b108-19362193880b" />
+    <UnitTestResult executionId="805030ba-ae7a-400d-be64-d776fc9b9bec" testId="cf138399-176f-e4d6-3638-1a051eb65552" testName="Gpss.HidDirect.Tests.HidSourceTests.MissingDescriptorIsExplicitlyUnsupportedWithoutInventedZeroFrames" computerName="MacBook-Air" duration="00:00:00.0065394" startTime="2026-11-02T21:29:06.4469550+09:00" endTime="2026-11-02T21:29:06.4535320+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="805030ba-ae7a-400d-be64-d776fc9b9bec" />
+    <UnitTestResult executionId="13e018b8-a1e4-4110-b476-c84cc02de32b" testId="2d5b0f7b-1956-bbf4-3187-14e47f7d0b61" testName="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 16, value: 65535, expected: -1)" computerName="MacBook-Air" duration="00:00:00.0000011" startTime="2026-11-02T21:29:06.3649880+09:00" endTime="2026-11-02T21:29:06.3650070+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13e018b8-a1e4-4110-b476-c84cc02de32b" />
+    <UnitTestResult executionId="427e24d9-27a2-49cb-aa92-6406d619781d" testId="aae5b79a-d3c7-5b29-f2e9-b4678b8c7753" testName="Gpss.HidDirect.Tests.HidSourceTests.CatalogReturnsDescriptorsAndOnlyPresentAxesBecomeSamples" computerName="MacBook-Air" duration="00:00:00.0093955" startTime="2026-11-02T21:29:06.3951250+09:00" endTime="2026-11-02T21:29:06.4045900+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="427e24d9-27a2-49cb-aa92-6406d619781d" />
+    <UnitTestResult executionId="cb75e4d0-1101-4c48-afdc-486d98a29957" testId="787c132e-c48f-ad87-e9af-52efb3083305" testName="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 8, value: 128, expected: -128)" computerName="MacBook-Air" duration="00:00:00.0011218" startTime="2026-11-02T21:29:06.3647890+09:00" endTime="2026-11-02T21:29:06.3648130+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb75e4d0-1101-4c48-afdc-486d98a29957" />
+    <UnitTestResult executionId="d236c211-8bc0-4fdf-b8dd-1b560419abd3" testId="178147b4-78ed-348a-3c31-5c03363911f7" testName="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 8, value: 255, expected: -1)" computerName="MacBook-Air" duration="00:00:00.0000016" startTime="2026-11-02T21:29:06.3649320+09:00" endTime="2026-11-02T21:29:06.3649520+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d236c211-8bc0-4fdf-b8dd-1b560419abd3" />
+    <UnitTestResult executionId="f939a60b-b99e-4347-a729-a691c355053c" testId="311d2985-e935-3ae4-a66e-68ad34e33ffa" testName="Gpss.HidDirect.Tests.HidSourceTests.StartRejectsDescriptorChangedSinceEnumerationBeforeReading" computerName="MacBook-Air" duration="00:00:00.0064751" startTime="2026-11-02T21:29:06.3885900+09:00" endTime="2026-11-02T21:29:06.3950410+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f939a60b-b99e-4347-a729-a691c355053c" />
+    <UnitTestResult executionId="010b4626-657d-4174-8a72-32a305d2bd44" testId="9fa96ae7-9ec1-3927-4b63-fcba28489071" testName="Gpss.HidDirect.Tests.HidSourceTests.InvalidAxisDoesNotCutAnotherValidAxis" computerName="MacBook-Air" duration="00:00:00.0065709" startTime="2026-11-02T21:29:06.4092800+09:00" endTime="2026-11-02T21:29:06.4151910+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="010b4626-657d-4174-8a72-32a305d2bd44" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.DecoderRegistryDoesNotGuessUnrecognizedDevices" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="b282a7a5-5103-125d-3724-ab90841e38a5">
+      <Execution id="e8505034-cbfd-4d2e-b538-6fb8c750c805" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="DecoderRegistryDoesNotGuessUnrecognizedDevices" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 16, value: 65535, expected: -1)" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="2d5b0f7b-1956-bbf4-3187-14e47f7d0b61">
+      <Execution id="13e018b8-a1e4-4110-b476-c84cc02de32b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="SignedValuesSignExtendAtTheirOwnBitWidth" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 8, value: 128, expected: -128)" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="787c132e-c48f-ad87-e9af-52efb3083305">
+      <Execution id="cb75e4d0-1101-4c48-afdc-486d98a29957" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="SignedValuesSignExtendAtTheirOwnBitWidth" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.UnsupportedArraysRelativeValuesAndInvalidRangesAreExplained" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="f229a89f-fa4f-c333-6321-4952d3fb9769">
+      <Execution id="f9fefa8f-9e51-47b0-97ee-1d51dbb305bb" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="UnsupportedArraysRelativeValuesAndInvalidRangesAreExplained" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.WindowsSdkLayoutsAreExplicit" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="a4a8b16b-ba88-ffe4-0f1a-a863266ef0d0">
+      <Execution id="a3ce7305-e74c-4c31-b221-5299a6d2c948" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="WindowsSdkLayoutsAreExplicit" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 12, value: 4095, expected: -1)" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="65237b7c-9314-6b60-11eb-a177fc34db20">
+      <Execution id="3b0d0a14-ae8c-41e9-a858-4e5fcbb07372" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="SignedValuesSignExtendAtTheirOwnBitWidth" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.CancellationCompletesOutstandingReadBeforeDisposal" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="46442eea-7059-1cd7-fba0-dea243ca35ce">
+      <Execution id="494586ed-d4ce-467a-9519-12db5a204220" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="CancellationCompletesOutstandingReadBeforeDisposal" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.RestartReopensDescriptorAndOldSessionCannotLeak" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="76d72a87-dcc8-a540-2ebb-71e8ee0f252b">
+      <Execution id="b24d3d9f-6e08-4de5-8b2b-b582c7feaea4" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="RestartReopensDescriptorAndOldSessionCannotLeak" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.InvalidAxisDoesNotCutAnotherValidAxis" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="9fa96ae7-9ec1-3927-4b63-fcba28489071">
+      <Execution id="010b4626-657d-4174-8a72-32a305d2bd44" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="InvalidAxisDoesNotCutAnotherValidAxis" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.AReadDisconnectUpdatesStatusAndDisposesConnection" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="fa728427-67a8-5f67-8e19-63a7d7c295e4">
+      <Execution id="3a9eb9e9-9526-4dbc-8e53-6ff5e6a64dcb" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="AReadDisconnectUpdatesStatusAndDisposesConnection" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.MissingDescriptorIsExplicitlyUnsupportedWithoutInventedZeroFrames" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="cf138399-176f-e4d6-3638-1a051eb65552">
+      <Execution id="805030ba-ae7a-400d-be64-d776fc9b9bec" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="MissingDescriptorIsExplicitlyUnsupportedWithoutInventedZeroFrames" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.CatalogReturnsDescriptorsAndOnlyPresentAxesBecomeSamples" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="aae5b79a-d3c7-5b29-f2e9-b4678b8c7753">
+      <Execution id="427e24d9-27a2-49cb-aa92-6406d619781d" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="CatalogReturnsDescriptorsAndOnlyPresentAxesBecomeSamples" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.StartRejectsDescriptorChangedSinceEnumerationBeforeReading" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="311d2985-e935-3ae4-a66e-68ad34e33ffa">
+      <Execution id="f939a60b-b99e-4347-a729-a691c355053c" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="StartRejectsDescriptorChangedSinceEnumerationBeforeReading" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.DecodedAuxiliaryValuesArePublishedOnTheirReportFrame" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="60e64825-4027-ca4e-48ff-650d968f8432">
+      <Execution id="2960aa18-d0bc-4a8e-ad55-1cfe428cf354" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="DecodedAuxiliaryValuesArePublishedOnTheirReportFrame" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.OffWindowsNativeCatalogFailsClearly" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="3b3099fc-46f4-6abe-b24a-d47ac5333dbf">
+      <Execution id="5612bcae-4413-42d5-841e-58b4165dadca" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="OffWindowsNativeCatalogFailsClearly" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.InvalidInputBreaksContinuityBeforeNextValidReading" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="8c1023ad-d4e4-a91f-22cc-97d6f7fd470a">
+      <Execution id="776562ac-6164-4b7c-99d1-07dd4878ecde" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="InvalidInputBreaksContinuityBeforeNextValidReading" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.RangeAndNotRangeUseDistinctUsageKeys" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="7bc18521-9d11-dc8a-d559-a973e3b16706">
+      <Execution id="8a2b1a6c-9b32-4418-a495-6b7709a45488" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="RangeAndNotRangeUseDistinctUsageKeys" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.NullAndOutOfRangeValuesAreRejectedRatherThanClamped" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="17d33cee-65e9-9411-73f7-407da0dacf36">
+      <Execution id="20af6345-7f63-4a8d-89d2-37ce7bc5aa98" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="NullAndOutOfRangeValuesAreRejectedRatherThanClamped" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidSourceTests.BoundedQueueReportsLossAndNextSuccessfulFrameBreaksEdge" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="e27e79a5-bf1d-2459-e50c-27bfad137b68">
+      <Execution id="f767fea8-4dc8-44d1-a3f1-537eb215eafe" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidSourceTests" name="BoundedQueueReportsLossAndNextSuccessfulFrameBreaksEdge" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.Unsigned32AndSigned32BoundariesAreInterpretedWithoutIntShiftOverflow" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="398d5436-2546-c52e-5f7e-4cac06452d8a">
+      <Execution id="f79e9227-4f7e-4853-b108-19362193880b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="Unsigned32AndSigned32BoundariesAreInterpretedWithoutIntShiftOverflow" />
+    </UnitTest>
+    <UnitTest name="Gpss.HidDirect.Tests.HidDescriptorTests.SignedValuesSignExtendAtTheirOwnBitWidth(bits: 8, value: 255, expected: -1)" storage="/volumes/dev/gpss/tests/gpss.hiddirect.tests/bin/debug/net10.0/gpss.hiddirect.tests.dll" id="178147b4-78ed-348a-3c31-5c03363911f7">
+      <Execution id="d236c211-8bc0-4fdf-b8dd-1b560419abd3" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.HidDirect.Tests.HidDescriptorTests" name="SignedValuesSignExtendAtTheirOwnBitWidth" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="76d72a87-dcc8-a540-2ebb-71e8ee0f252b" executionId="b24d3d9f-6e08-4de5-8b2b-b582c7feaea4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a4a8b16b-ba88-ffe4-0f1a-a863266ef0d0" executionId="a3ce7305-e74c-4c31-b221-5299a6d2c948" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60e64825-4027-ca4e-48ff-650d968f8432" executionId="2960aa18-d0bc-4a8e-ad55-1cfe428cf354" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8c1023ad-d4e4-a91f-22cc-97d6f7fd470a" executionId="776562ac-6164-4b7c-99d1-07dd4878ecde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b3099fc-46f4-6abe-b24a-d47ac5333dbf" executionId="5612bcae-4413-42d5-841e-58b4165dadca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b282a7a5-5103-125d-3724-ab90841e38a5" executionId="e8505034-cbfd-4d2e-b538-6fb8c750c805" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e27e79a5-bf1d-2459-e50c-27bfad137b68" executionId="f767fea8-4dc8-44d1-a3f1-537eb215eafe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f229a89f-fa4f-c333-6321-4952d3fb9769" executionId="f9fefa8f-9e51-47b0-97ee-1d51dbb305bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46442eea-7059-1cd7-fba0-dea243ca35ce" executionId="494586ed-d4ce-467a-9519-12db5a204220" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fa728427-67a8-5f67-8e19-63a7d7c295e4" executionId="3a9eb9e9-9526-4dbc-8e53-6ff5e6a64dcb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="65237b7c-9314-6b60-11eb-a177fc34db20" executionId="3b0d0a14-ae8c-41e9-a858-4e5fcbb07372" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17d33cee-65e9-9411-73f7-407da0dacf36" executionId="20af6345-7f63-4a8d-89d2-37ce7bc5aa98" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7bc18521-9d11-dc8a-d559-a973e3b16706" executionId="8a2b1a6c-9b32-4418-a495-6b7709a45488" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="398d5436-2546-c52e-5f7e-4cac06452d8a" executionId="f79e9227-4f7e-4853-b108-19362193880b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf138399-176f-e4d6-3638-1a051eb65552" executionId="805030ba-ae7a-400d-be64-d776fc9b9bec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2d5b0f7b-1956-bbf4-3187-14e47f7d0b61" executionId="13e018b8-a1e4-4110-b476-c84cc02de32b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aae5b79a-d3c7-5b29-f2e9-b4678b8c7753" executionId="427e24d9-27a2-49cb-aa92-6406d619781d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="787c132e-c48f-ad87-e9af-52efb3083305" executionId="cb75e4d0-1101-4c48-afdc-486d98a29957" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="178147b4-78ed-348a-3c31-5c03363911f7" executionId="d236c211-8bc0-4fdf-b8dd-1b560419abd3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="311d2985-e935-3ae4-a66e-68ad34e33ffa" executionId="f939a60b-b99e-4347-a729-a691c355053c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fa96ae7-9ec1-3927-4b63-fcba28489071" executionId="010b4626-657d-4174-8a72-32a305d2bd44" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="21" executed="21" passed="21" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.10]   Discovering: Gpss.HidDirect.Tests
+[xUnit.net 00:00:00.12]   Discovered:  Gpss.HidDirect.Tests
+[xUnit.net 00:00:00.13]   Starting:    Gpss.HidDirect.Tests
+[xUnit.net 00:00:00.27]   Finished:    Gpss.HidDirect.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

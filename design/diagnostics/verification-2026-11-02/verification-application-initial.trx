@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="439c5344-fd07-4adf-9782-4992a5f94a58" name="@MacBook-Air 2026-11-02 21:28:20" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-02T21:28:20.5117460+09:00" queuing="2026-11-02T21:28:20.5117460+09:00" start="2026-11-02T21:28:19.3740860+09:00" finish="2026-11-02T21:28:25.3848000+09:00" />
+  <TestSettings name="default" id="b60a3010-f15b-4bb6-9f37-2bfd2bf727d6">
+    <Deployment runDeploymentRoot="_MacBook-Air_2026-11-02_21_28_20" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="2b7a3a93-ca6b-40b9-adbf-de17eada46d4" testId="3d40c4f6-6710-034b-4cda-3eb398683b61" testName="Gpss.Application.Tests.ControllerTests.DisconnectClearsAllPositions" computerName="MacBook-Air" duration="00:00:00.0318931" startTime="2026-11-02T21:28:20.5036960+09:00" endTime="2026-11-02T21:28:20.5356360+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2b7a3a93-ca6b-40b9-adbf-de17eada46d4" />
+    <UnitTestResult executionId="96c4ad83-ffd6-46c9-8629-9c21f454f095" testId="5ad6ba2a-b904-feac-ecc7-d80eee1a2afd" testName="Gpss.Application.Tests.InputPositionTests.OutOfOrderFramesCannotReplaceTheLatestValidPosition" computerName="MacBook-Air" duration="00:00:00.0044667" startTime="2026-11-02T21:28:20.2764550+09:00" endTime="2026-11-02T21:28:20.2766220+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="96c4ad83-ffd6-46c9-8629-9c21f454f095" />
+    <UnitTestResult executionId="49bc2149-f6d1-4008-a1fc-830764359aa8" testId="c3518d03-bd0a-abce-00ef-e33aa3d163bb" testName="Gpss.Application.Tests.PerformanceLogTests.SizeLimitStopsAppendingWithoutGrowingTheFile" computerName="MacBook-Air" duration="00:00:00.0534055" startTime="2026-11-02T21:28:20.2216210+09:00" endTime="2026-11-02T21:28:20.2770340+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49bc2149-f6d1-4008-a1fc-830764359aa8" />
+    <UnitTestResult executionId="8cfebc3f-fdaa-4088-9ce0-7612d1315425" testId="d42ea267-6853-3631-ace8-7824e4ac33c6" testName="Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames" computerName="MacBook-Air" duration="00:00:05.0300563" startTime="2026-11-02T21:28:20.3026200+09:00" endTime="2026-11-02T21:28:25.3386540+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8cfebc3f-fdaa-4088-9ce0-7612d1315425">
+      <Output>
+        <ErrorInfo>
+          <Message>Histogram state was not reached</Message>
+          <StackTrace>   at Gpss.Application.Tests.HistogramPipelineTests.Until(Func`1 condition) in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 34
+   at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames() in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 62
+   at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames() in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 64
+--- End of stack trace from previous location ---</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d1a867c0-f051-4a9e-834e-601d0685d904" testId="531ddaac-1185-edc8-f70c-4c68d1dfeb78" testName="Gpss.Application.Tests.SettingsTests.MissingCorruptAndUnknownSchemaFallBackWithWarning" computerName="MacBook-Air" duration="00:00:00.0004851" startTime="2026-11-02T21:28:20.3220400+09:00" endTime="2026-11-02T21:28:20.3224140+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1a867c0-f051-4a9e-834e-601d0685d904" />
+    <UnitTestResult executionId="30a98952-f044-4f36-9831-b0c0c1d0c46b" testId="5719a03d-4c9b-e0b1-a3d4-6346b10fbe66" testName="Gpss.Application.Tests.PerformanceLogTests.InvalidOutputReportsFailureAndCloseRemainsSafe" computerName="MacBook-Air" duration="00:00:00.0010734" startTime="2026-11-02T21:28:20.2973840+09:00" endTime="2026-11-02T21:28:20.2974100+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30a98952-f044-4f36-9831-b0c0c1d0c46b" />
+    <UnitTestResult executionId="78a61cd6-9e05-41c4-827d-fe4f45906d2f" testId="6061e983-f8be-d157-c29e-b6cfb62f1044" testName="Gpss.Application.Tests.SettingsTests.DeviceProfilesRequirePathAndCompleteUnchangedDescriptor" computerName="MacBook-Air" duration="00:00:00.0005867" startTime="2026-11-02T21:28:20.3213420+09:00" endTime="2026-11-02T21:28:20.3219490+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78a61cd6-9e05-41c4-827d-fe4f45906d2f" />
+    <UnitTestResult executionId="2cdf8709-32d7-4a1e-9c8c-0d4397fd4233" testId="ba9efdb1-d43f-49c3-d580-b5146b825318" testName="Gpss.Application.Tests.DisplayPipelineTests.LatestPositionRemainsReadableWhileAnalysisIsBlockedAndClearsOnSelectionChange" computerName="MacBook-Air" duration="00:00:00.0263419" startTime="2026-11-02T21:28:20.2988150+09:00" endTime="2026-11-02T21:28:20.3234320+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cdf8709-32d7-4a1e-9c8c-0d4397fd4233" />
+    <UnitTestResult executionId="ccc31c60-8a19-431b-b559-a48d78d2b53a" testId="f1dfd32b-34ba-2f56-e673-8164eeda64ec" testName="Gpss.Application.Tests.ControllerTests.FourAxesAndRepresentativePrecisionAreCalculatedOffUi" computerName="MacBook-Air" duration="00:00:00.0140100" startTime="2026-11-02T21:28:20.3791290+09:00" endTime="2026-11-02T21:28:20.3931820+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccc31c60-8a19-431b-b559-a48d78d2b53a" />
+    <UnitTestResult executionId="80988614-876f-43f5-a3c3-544fddf2a31a" testId="58c5c137-9be0-caba-1a6a-a6bbff7cbe6d" testName="Gpss.Application.Tests.PerformanceLogTests.RowsAreFlushedWhileRunningAndAppendIsDrainedAtClose" computerName="MacBook-Air" duration="00:00:00.0124202" startTime="2026-11-02T21:28:20.2974800+09:00" endTime="2026-11-02T21:28:20.2976930+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80988614-876f-43f5-a3c3-544fddf2a31a" />
+    <UnitTestResult executionId="a7b80b5c-b95a-4307-afc7-bce57e6ce759" testId="6166c4da-a9dc-c2b5-99bd-0af32a904b89" testName="Gpss.Application.Tests.SettingsTests.XInputMappingIsGlobalAcrossSlotsAndDoesNotCreateDeviceProfile" computerName="MacBook-Air" duration="00:00:00.0038888" startTime="2026-11-02T21:28:20.3167440+09:00" endTime="2026-11-02T21:28:20.3205220+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a7b80b5c-b95a-4307-afc7-bce57e6ce759" />
+    <UnitTestResult executionId="dd3460a2-201b-4898-9cbc-3c53f1b4dfbf" testId="4abcbdb2-08e1-7d75-f443-940e2df0ee51" testName="Gpss.Application.Tests.ControllerTests.SuggestedMappingRejectsAmbiguityAndInvertsXInputVerticalAxes" computerName="MacBook-Air" duration="00:00:00.0006793" startTime="2026-11-02T21:28:20.3932830+09:00" endTime="2026-11-02T21:28:20.3938960+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3460a2-201b-4898-9cbc-3c53f1b4dfbf" />
+    <UnitTestResult executionId="2d5616c2-0cc7-47f4-a123-5645a6d9b11e" testId="98623232-24f0-4bb6-1439-5b58d60135c0" testName="Gpss.Application.Tests.ControllerTests.PartialAxisAndEmptyWindowDoNotInventOtherAxesOrRemoveLastPosition" computerName="MacBook-Air" duration="00:00:00.0284750" startTime="2026-11-02T21:28:20.5361230+09:00" endTime="2026-11-02T21:28:20.5642280+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2d5616c2-0cc7-47f4-a123-5645a6d9b11e" />
+    <UnitTestResult executionId="605cc946-d920-4970-9893-0ae272327c81" testId="f0dc8fde-e962-4223-8601-28cae1d82c56" testName="Gpss.Application.Tests.InputPositionTests.PartialAndInvalidReadingsPreserveLastValidAxisSamples" computerName="MacBook-Air" duration="00:00:00.0032224" startTime="2026-11-02T21:28:20.2971950+09:00" endTime="2026-11-02T21:28:20.2975030+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="605cc946-d920-4970-9893-0ae272327c81" />
+    <UnitTestResult executionId="45557ced-facf-493f-bb63-3950d1b0cb8e" testId="c299a09b-e2b0-80a9-d878-15ff47d5aa28" testName="Gpss.Application.Tests.SettingsTests.ProfileUpsertNormalizesDefaultOptionalArrayAndValidatesAuxiliaryAxes" computerName="MacBook-Air" duration="00:00:00.0043561" startTime="2026-11-02T21:28:20.3258310+09:00" endTime="2026-11-02T21:28:20.3300950+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45557ced-facf-493f-bb63-3950d1b0cb8e" />
+    <UnitTestResult executionId="3eae62e6-6673-4fee-8a9b-9da4386662a4" testId="91122cef-5564-a823-b53f-06de63fd4dbc" testName="Gpss.Application.Tests.SettingsTests.DescriptorSignatureDoesNotDependOnCurrentCulture" computerName="MacBook-Air" duration="00:00:00.0002110" startTime="2026-11-02T21:28:20.3211380+09:00" endTime="2026-11-02T21:28:20.3212830+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eae62e6-6673-4fee-8a9b-9da4386662a4" />
+    <UnitTestResult executionId="2718d7ab-8238-40df-89ea-2455f2130bdf" testId="b9d9b2b9-8d38-5adf-be4c-15a0e5a53354" testName="Gpss.Application.Tests.HistogramPipelineTests.ResetModeChangeAndDisconnectNeverShowThePreviousDistribution" computerName="MacBook-Air" duration="00:00:00.0745500" startTime="2026-11-02T21:28:20.2216030+09:00" endTime="2026-11-02T21:28:20.2988380+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2718d7ab-8238-40df-89ea-2455f2130bdf" />
+    <UnitTestResult executionId="1466ef30-cad0-41c5-b775-bb75dcb8791b" testId="1ee228ab-0bf6-511b-2b66-c6701ce2aeca" testName="Gpss.Application.Tests.InputPositionTests.EpochChangeAndNonConnectedStatusClearOldPositionAndRejectStaleFrames" computerName="MacBook-Air" duration="00:00:00.0458123" startTime="2026-11-02T21:28:20.2216120+09:00" endTime="2026-11-02T21:28:20.2709690+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1466ef30-cad0-41c5-b775-bb75dcb8791b" />
+    <UnitTestResult executionId="4173bd8a-2465-411d-aae9-e844aa1d55b9" testId="73dde54a-78e2-e68c-64bb-dc2539a9b4ca" testName="Gpss.Application.Tests.InputPositionTests.LatestPositionAdvancesWithoutConsumingObservationQueue" computerName="MacBook-Air" duration="00:00:00.0023635" startTime="2026-11-02T21:28:20.2770050+09:00" endTime="2026-11-02T21:28:20.2791480+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4173bd8a-2465-411d-aae9-e844aa1d55b9" />
+    <UnitTestResult executionId="ed9a21d5-dd20-4b4a-bddb-c48f7c155f2b" testId="e06b2b6d-2c95-b514-c57d-c589e2371216" testName="Gpss.Application.Tests.PerformanceLogTests.SlowDiskConsumerCannotAccumulateUnboundedPendingRows" computerName="MacBook-Air" duration="00:00:00.0030631" startTime="2026-11-02T21:28:20.2771080+09:00" endTime="2026-11-02T21:28:20.2972350+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed9a21d5-dd20-4b4a-bddb-c48f7c155f2b" />
+    <UnitTestResult executionId="44f399cd-7fa8-4f91-8ece-6e014d38743d" testId="d1a6ec74-e793-6395-d1b0-1262ac59cb3d" testName="Gpss.Application.Tests.InputPositionTests.LatestPositionRemainsCurrentWhenObservationQueueDropsFrames" computerName="MacBook-Air" duration="00:00:00.0109831" startTime="2026-11-02T21:28:20.2975590+09:00" endTime="2026-11-02T21:28:20.2976610+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44f399cd-7fa8-4f91-8ece-6e014d38743d" />
+    <UnitTestResult executionId="b0b15d8c-4a2b-41f8-9c30-58e841e8e676" testId="744b215e-09ee-45d2-9b21-a342e33b0c19" testName="Gpss.Application.Tests.ControllerTests.ObservationQueueEnforcesCountAndByteLimits" computerName="MacBook-Air" duration="00:00:00.0002102" startTime="2026-11-02T21:28:20.5035930+09:00" endTime="2026-11-02T21:28:20.5036340+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b0b15d8c-4a2b-41f8-9c30-58e841e8e676" />
+    <UnitTestResult executionId="73323ceb-fa60-4287-bdbb-36fe39608b7a" testId="4ab1368f-f719-2155-7b56-f1cd3df8a0c5" testName="Gpss.Application.Tests.SettingsTests.InvalidMappingIsRejectedBeforeSave" computerName="MacBook-Air" duration="00:00:00.0005746" startTime="2026-11-02T21:28:20.3225350+09:00" endTime="2026-11-02T21:28:20.3230080+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73323ceb-fa60-4287-bdbb-36fe39608b7a" />
+    <UnitTestResult executionId="92c862f9-9c65-4aae-85ba-de501ebe58df" testId="db9137fa-c622-4d98-b412-72cf18416542" testName="Gpss.Application.Tests.ControllerTests.ResetAndBackendChangeDiscardOldEpochs" computerName="MacBook-Air" duration="00:00:00.0857561" startTime="2026-11-02T21:28:20.4175130+09:00" endTime="2026-11-02T21:28:20.5034130+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92c862f9-9c65-4aae-85ba-de501ebe58df" />
+    <UnitTestResult executionId="7864b47c-d67b-4818-8948-81a634068a6f" testId="3f964111-e9ce-fe56-b14f-f5e2105839cf" testName="Gpss.Application.Tests.ControllerTests.RealSimulationPipelineProducesEightAndTenBitAndStops" computerName="MacBook-Air" duration="00:00:00.1560992" startTime="2026-11-02T21:28:20.2215730+09:00" endTime="2026-11-02T21:28:20.3790130+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7864b47c-d67b-4818-8948-81a634068a6f" />
+    <UnitTestResult executionId="06c8f3a3-3345-48f1-b8c1-c0ce1577c36d" testId="765591eb-f9e1-0b92-87b1-cf708bfbea0f" testName="Gpss.Application.Tests.SettingsTests.SaveRoundTripsThroughAtomicSameDirectoryReplacement" computerName="MacBook-Air" duration="00:00:00.0229277" startTime="2026-11-02T21:28:20.2976390+09:00" endTime="2026-11-02T21:28:20.3166260+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06c8f3a3-3345-48f1-b8c1-c0ce1577c36d" />
+    <UnitTestResult executionId="6dfc1278-03a0-4a38-813f-1c049a72c546" testId="6c0dd104-882c-d5ac-187a-11db2c7a861d" testName="Gpss.Application.Tests.DisplayPipelineTests.ReplacedEstimatorCannotPublishAfterTheNewMethodWasChosen" computerName="MacBook-Air" duration="00:00:00.0738489" startTime="2026-11-02T21:28:20.2209470+09:00" endTime="2026-11-02T21:28:20.2987390+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6dfc1278-03a0-4a38-813f-1c049a72c546" />
+    <UnitTestResult executionId="0c76eaff-928b-428f-ba2b-6260e793fa32" testId="4b82f70f-f709-8148-dfaa-8d8a23cf9f50" testName="Gpss.Application.Tests.ControllerTests.RegistryReplacementUsesTheSameInputHistory" computerName="MacBook-Air" duration="00:00:00.0234119" startTime="2026-11-02T21:28:20.3940060+09:00" endTime="2026-11-02T21:28:20.4174160+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c76eaff-928b-428f-ba2b-6260e793fa32" />
+    <UnitTestResult executionId="bdbd5eaf-b7df-47aa-a897-b584abb03801" testId="f98e9496-56d2-23f7-f9c2-658d61674cd2" testName="Gpss.Application.Tests.SettingsTests.NullAndIncompleteProfilesAreSkippedAndBadSettingsTypesFallBack" computerName="MacBook-Air" duration="00:00:00.0005121" startTime="2026-11-02T21:28:20.3206140+09:00" endTime="2026-11-02T21:28:20.3210630+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bdbd5eaf-b7df-47aa-a897-b584abb03801" />
+    <UnitTestResult executionId="b1e833cc-05a0-445c-8f1b-4784c735a492" testId="e010c470-9698-b13e-a30d-cae9f7a9b1f0" testName="Gpss.Application.Tests.SettingsTests.InvalidSettingsAreRecoveredOrRejectedOnSave" computerName="MacBook-Air" duration="00:00:00.0706922" startTime="2026-11-02T21:28:20.2215910+09:00" endTime="2026-11-02T21:28:20.2975830+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1e833cc-05a0-445c-8f1b-4784c735a492" />
+    <UnitTestResult executionId="882aabbe-4ae8-4eed-abd6-10ccdaf098c8" testId="ed5640e5-696f-9f4b-fa3c-681dd566b0e8" testName="Gpss.Application.Tests.SettingsTests.InvalidStoredProfileIsIgnoredWithWarning" computerName="MacBook-Air" duration="00:00:00.0026915" startTime="2026-11-02T21:28:20.3231120+09:00" endTime="2026-11-02T21:28:20.3257030+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="882aabbe-4ae8-4eed-abd6-10ccdaf098c8" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.MissingCorruptAndUnknownSchemaFallBackWithWarning" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="531ddaac-1185-edc8-f70c-4c68d1dfeb78">
+      <Execution id="d1a867c0-f051-4a9e-834e-601d0685d904" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="MissingCorruptAndUnknownSchemaFallBackWithWarning" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="d42ea267-6853-3631-ace8-7824e4ac33c6">
+      <Execution id="8cfebc3f-fdaa-4088-9ce0-7612d1315425" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.HistogramPipelineTests" name="FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.InputPositionTests.LatestPositionAdvancesWithoutConsumingObservationQueue" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="73dde54a-78e2-e68c-64bb-dc2539a9b4ca">
+      <Execution id="4173bd8a-2465-411d-aae9-e844aa1d55b9" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.InputPositionTests" name="LatestPositionAdvancesWithoutConsumingObservationQueue" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.PerformanceLogTests.InvalidOutputReportsFailureAndCloseRemainsSafe" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="5719a03d-4c9b-e0b1-a3d4-6346b10fbe66">
+      <Execution id="30a98952-f044-4f36-9831-b0c0c1d0c46b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.PerformanceLogTests" name="InvalidOutputReportsFailureAndCloseRemainsSafe" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.DisconnectClearsAllPositions" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="3d40c4f6-6710-034b-4cda-3eb398683b61">
+      <Execution id="2b7a3a93-ca6b-40b9-adbf-de17eada46d4" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="DisconnectClearsAllPositions" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.InvalidMappingIsRejectedBeforeSave" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="4ab1368f-f719-2155-7b56-f1cd3df8a0c5">
+      <Execution id="73323ceb-fa60-4287-bdbb-36fe39608b7a" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="InvalidMappingIsRejectedBeforeSave" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.InputPositionTests.PartialAndInvalidReadingsPreserveLastValidAxisSamples" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="f0dc8fde-e962-4223-8601-28cae1d82c56">
+      <Execution id="605cc946-d920-4970-9893-0ae272327c81" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.InputPositionTests" name="PartialAndInvalidReadingsPreserveLastValidAxisSamples" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.SaveRoundTripsThroughAtomicSameDirectoryReplacement" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="765591eb-f9e1-0b92-87b1-cf708bfbea0f">
+      <Execution id="06c8f3a3-3345-48f1-b8c1-c0ce1577c36d" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="SaveRoundTripsThroughAtomicSameDirectoryReplacement" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.ObservationQueueEnforcesCountAndByteLimits" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="744b215e-09ee-45d2-9b21-a342e33b0c19">
+      <Execution id="b0b15d8c-4a2b-41f8-9c30-58e841e8e676" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="ObservationQueueEnforcesCountAndByteLimits" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.PerformanceLogTests.RowsAreFlushedWhileRunningAndAppendIsDrainedAtClose" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="58c5c137-9be0-caba-1a6a-a6bbff7cbe6d">
+      <Execution id="80988614-876f-43f5-a3c3-544fddf2a31a" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.PerformanceLogTests" name="RowsAreFlushedWhileRunningAndAppendIsDrainedAtClose" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.ResetAndBackendChangeDiscardOldEpochs" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="db9137fa-c622-4d98-b412-72cf18416542">
+      <Execution id="92c862f9-9c65-4aae-85ba-de501ebe58df" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="ResetAndBackendChangeDiscardOldEpochs" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.XInputMappingIsGlobalAcrossSlotsAndDoesNotCreateDeviceProfile" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="6166c4da-a9dc-c2b5-99bd-0af32a904b89">
+      <Execution id="a7b80b5c-b95a-4307-afc7-bce57e6ce759" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="XInputMappingIsGlobalAcrossSlotsAndDoesNotCreateDeviceProfile" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.DeviceProfilesRequirePathAndCompleteUnchangedDescriptor" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="6061e983-f8be-d157-c29e-b6cfb62f1044">
+      <Execution id="78a61cd6-9e05-41c4-827d-fe4f45906d2f" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="DeviceProfilesRequirePathAndCompleteUnchangedDescriptor" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.DisplayPipelineTests.ReplacedEstimatorCannotPublishAfterTheNewMethodWasChosen" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="6c0dd104-882c-d5ac-187a-11db2c7a861d">
+      <Execution id="6dfc1278-03a0-4a38-813f-1c049a72c546" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.DisplayPipelineTests" name="ReplacedEstimatorCannotPublishAfterTheNewMethodWasChosen" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.PerformanceLogTests.SlowDiskConsumerCannotAccumulateUnboundedPendingRows" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="e06b2b6d-2c95-b514-c57d-c589e2371216">
+      <Execution id="ed9a21d5-dd20-4b4a-bddb-c48f7c155f2b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.PerformanceLogTests" name="SlowDiskConsumerCannotAccumulateUnboundedPendingRows" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.NullAndIncompleteProfilesAreSkippedAndBadSettingsTypesFallBack" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="f98e9496-56d2-23f7-f9c2-658d61674cd2">
+      <Execution id="bdbd5eaf-b7df-47aa-a897-b584abb03801" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="NullAndIncompleteProfilesAreSkippedAndBadSettingsTypesFallBack" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.InvalidSettingsAreRecoveredOrRejectedOnSave" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="e010c470-9698-b13e-a30d-cae9f7a9b1f0">
+      <Execution id="b1e833cc-05a0-445c-8f1b-4784c735a492" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="InvalidSettingsAreRecoveredOrRejectedOnSave" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.InvalidStoredProfileIsIgnoredWithWarning" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="ed5640e5-696f-9f4b-fa3c-681dd566b0e8">
+      <Execution id="882aabbe-4ae8-4eed-abd6-10ccdaf098c8" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="InvalidStoredProfileIsIgnoredWithWarning" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.HistogramPipelineTests.ResetModeChangeAndDisconnectNeverShowThePreviousDistribution" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="b9d9b2b9-8d38-5adf-be4c-15a0e5a53354">
+      <Execution id="2718d7ab-8238-40df-89ea-2455f2130bdf" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.HistogramPipelineTests" name="ResetModeChangeAndDisconnectNeverShowThePreviousDistribution" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.PartialAxisAndEmptyWindowDoNotInventOtherAxesOrRemoveLastPosition" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="98623232-24f0-4bb6-1439-5b58d60135c0">
+      <Execution id="2d5616c2-0cc7-47f4-a123-5645a6d9b11e" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="PartialAxisAndEmptyWindowDoNotInventOtherAxesOrRemoveLastPosition" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.InputPositionTests.LatestPositionRemainsCurrentWhenObservationQueueDropsFrames" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="d1a6ec74-e793-6395-d1b0-1262ac59cb3d">
+      <Execution id="44f399cd-7fa8-4f91-8ece-6e014d38743d" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.InputPositionTests" name="LatestPositionRemainsCurrentWhenObservationQueueDropsFrames" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.ProfileUpsertNormalizesDefaultOptionalArrayAndValidatesAuxiliaryAxes" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="c299a09b-e2b0-80a9-d878-15ff47d5aa28">
+      <Execution id="45557ced-facf-493f-bb63-3950d1b0cb8e" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="ProfileUpsertNormalizesDefaultOptionalArrayAndValidatesAuxiliaryAxes" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.InputPositionTests.EpochChangeAndNonConnectedStatusClearOldPositionAndRejectStaleFrames" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="1ee228ab-0bf6-511b-2b66-c6701ce2aeca">
+      <Execution id="1466ef30-cad0-41c5-b775-bb75dcb8791b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.InputPositionTests" name="EpochChangeAndNonConnectedStatusClearOldPositionAndRejectStaleFrames" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.RegistryReplacementUsesTheSameInputHistory" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="4b82f70f-f709-8148-dfaa-8d8a23cf9f50">
+      <Execution id="0c76eaff-928b-428f-ba2b-6260e793fa32" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="RegistryReplacementUsesTheSameInputHistory" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.RealSimulationPipelineProducesEightAndTenBitAndStops" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="3f964111-e9ce-fe56-b14f-f5e2105839cf">
+      <Execution id="7864b47c-d67b-4818-8948-81a634068a6f" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="RealSimulationPipelineProducesEightAndTenBitAndStops" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.FourAxesAndRepresentativePrecisionAreCalculatedOffUi" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="f1dfd32b-34ba-2f56-e673-8164eeda64ec">
+      <Execution id="ccc31c60-8a19-431b-b559-a48d78d2b53a" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="FourAxesAndRepresentativePrecisionAreCalculatedOffUi" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.PerformanceLogTests.SizeLimitStopsAppendingWithoutGrowingTheFile" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="c3518d03-bd0a-abce-00ef-e33aa3d163bb">
+      <Execution id="49bc2149-f6d1-4008-a1fc-830764359aa8" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.PerformanceLogTests" name="SizeLimitStopsAppendingWithoutGrowingTheFile" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.ControllerTests.SuggestedMappingRejectsAmbiguityAndInvertsXInputVerticalAxes" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="4abcbdb2-08e1-7d75-f443-940e2df0ee51">
+      <Execution id="dd3460a2-201b-4898-9cbc-3c53f1b4dfbf" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.ControllerTests" name="SuggestedMappingRejectsAmbiguityAndInvertsXInputVerticalAxes" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.InputPositionTests.OutOfOrderFramesCannotReplaceTheLatestValidPosition" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="5ad6ba2a-b904-feac-ecc7-d80eee1a2afd">
+      <Execution id="96c4ad83-ffd6-46c9-8629-9c21f454f095" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.InputPositionTests" name="OutOfOrderFramesCannotReplaceTheLatestValidPosition" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.SettingsTests.DescriptorSignatureDoesNotDependOnCurrentCulture" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="91122cef-5564-a823-b53f-06de63fd4dbc">
+      <Execution id="3eae62e6-6673-4fee-8a9b-9da4386662a4" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.SettingsTests" name="DescriptorSignatureDoesNotDependOnCurrentCulture" />
+    </UnitTest>
+    <UnitTest name="Gpss.Application.Tests.DisplayPipelineTests.LatestPositionRemainsReadableWhileAnalysisIsBlockedAndClearsOnSelectionChange" storage="/volumes/dev/gpss/tests/gpss.application.tests/bin/debug/net10.0/gpss.application.tests.dll" id="ba9efdb1-d43f-49c3-d580-b5146b825318">
+      <Execution id="2cdf8709-32d7-4a1e-9c8c-0d4397fd4233" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Application.Tests.DisplayPipelineTests" name="LatestPositionRemainsReadableWhileAnalysisIsBlockedAndClearsOnSelectionChange" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3d40c4f6-6710-034b-4cda-3eb398683b61" executionId="2b7a3a93-ca6b-40b9-adbf-de17eada46d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5ad6ba2a-b904-feac-ecc7-d80eee1a2afd" executionId="96c4ad83-ffd6-46c9-8629-9c21f454f095" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c3518d03-bd0a-abce-00ef-e33aa3d163bb" executionId="49bc2149-f6d1-4008-a1fc-830764359aa8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d42ea267-6853-3631-ace8-7824e4ac33c6" executionId="8cfebc3f-fdaa-4088-9ce0-7612d1315425" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="531ddaac-1185-edc8-f70c-4c68d1dfeb78" executionId="d1a867c0-f051-4a9e-834e-601d0685d904" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5719a03d-4c9b-e0b1-a3d4-6346b10fbe66" executionId="30a98952-f044-4f36-9831-b0c0c1d0c46b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6061e983-f8be-d157-c29e-b6cfb62f1044" executionId="78a61cd6-9e05-41c4-827d-fe4f45906d2f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ba9efdb1-d43f-49c3-d580-b5146b825318" executionId="2cdf8709-32d7-4a1e-9c8c-0d4397fd4233" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1dfd32b-34ba-2f56-e673-8164eeda64ec" executionId="ccc31c60-8a19-431b-b559-a48d78d2b53a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="58c5c137-9be0-caba-1a6a-a6bbff7cbe6d" executionId="80988614-876f-43f5-a3c3-544fddf2a31a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6166c4da-a9dc-c2b5-99bd-0af32a904b89" executionId="a7b80b5c-b95a-4307-afc7-bce57e6ce759" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4abcbdb2-08e1-7d75-f443-940e2df0ee51" executionId="dd3460a2-201b-4898-9cbc-3c53f1b4dfbf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="98623232-24f0-4bb6-1439-5b58d60135c0" executionId="2d5616c2-0cc7-47f4-a123-5645a6d9b11e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f0dc8fde-e962-4223-8601-28cae1d82c56" executionId="605cc946-d920-4970-9893-0ae272327c81" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c299a09b-e2b0-80a9-d878-15ff47d5aa28" executionId="45557ced-facf-493f-bb63-3950d1b0cb8e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="91122cef-5564-a823-b53f-06de63fd4dbc" executionId="3eae62e6-6673-4fee-8a9b-9da4386662a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b9d9b2b9-8d38-5adf-be4c-15a0e5a53354" executionId="2718d7ab-8238-40df-89ea-2455f2130bdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ee228ab-0bf6-511b-2b66-c6701ce2aeca" executionId="1466ef30-cad0-41c5-b775-bb75dcb8791b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="73dde54a-78e2-e68c-64bb-dc2539a9b4ca" executionId="4173bd8a-2465-411d-aae9-e844aa1d55b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e06b2b6d-2c95-b514-c57d-c589e2371216" executionId="ed9a21d5-dd20-4b4a-bddb-c48f7c155f2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1a6ec74-e793-6395-d1b0-1262ac59cb3d" executionId="44f399cd-7fa8-4f91-8ece-6e014d38743d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="744b215e-09ee-45d2-9b21-a342e33b0c19" executionId="b0b15d8c-4a2b-41f8-9c30-58e841e8e676" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ab1368f-f719-2155-7b56-f1cd3df8a0c5" executionId="73323ceb-fa60-4287-bdbb-36fe39608b7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db9137fa-c622-4d98-b412-72cf18416542" executionId="92c862f9-9c65-4aae-85ba-de501ebe58df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f964111-e9ce-fe56-b14f-f5e2105839cf" executionId="7864b47c-d67b-4818-8948-81a634068a6f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="765591eb-f9e1-0b92-87b1-cf708bfbea0f" executionId="06c8f3a3-3345-48f1-b8c1-c0ce1577c36d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c0dd104-882c-d5ac-187a-11db2c7a861d" executionId="6dfc1278-03a0-4a38-813f-1c049a72c546" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4b82f70f-f709-8148-dfaa-8d8a23cf9f50" executionId="0c76eaff-928b-428f-ba2b-6260e793fa32" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f98e9496-56d2-23f7-f9c2-658d61674cd2" executionId="bdbd5eaf-b7df-47aa-a897-b584abb03801" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e010c470-9698-b13e-a30d-cae9f7a9b1f0" executionId="b1e833cc-05a0-445c-8f1b-4784c735a492" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ed5640e5-696f-9f4b-fa3c-681dd566b0e8" executionId="882aabbe-4ae8-4eed-abd6-10ccdaf098c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="31" executed="31" passed="30" failed="1" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.11]   Discovering: Gpss.Application.Tests
+[xUnit.net 00:00:00.13]   Discovered:  Gpss.Application.Tests
+[xUnit.net 00:00:00.14]   Starting:    Gpss.Application.Tests
+[xUnit.net 00:00:05.27]       Histogram state was not reached
+[xUnit.net 00:00:05.27]       Stack Trace:
+[xUnit.net 00:00:05.27]         /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs(34,0): at Gpss.Application.Tests.HistogramPipelineTests.Until(Func`1 condition)
+[xUnit.net 00:00:05.27]         /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs(62,0): at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames()
+[xUnit.net 00:00:05.27]         /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs(64,0): at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames()
+[xUnit.net 00:00:05.27]         --- End of stack trace from previous location ---
+[xUnit.net 00:00:05.27]   Finished:    Gpss.Application.Tests
+</StdOut>
+    </Output>
+    <RunInfos>
+      <RunInfo computerName="MacBook-Air" outcome="Error" timestamp="2026-11-02T21:28:25.3409240+09:00">
+        <Text>[xUnit.net 00:00:05.26]     Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames [FAIL]</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+</TestRun>

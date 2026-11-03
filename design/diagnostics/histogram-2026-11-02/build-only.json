@@ -1,0 +1,21 @@
+{
+  "executables": [
+    {
+      "file": "desktop/Gpss.Desktop.exe",
+      "bytes": 140198494,
+      "sha256": "e721c1288fcab2f012fece0c7dfefca5401912fb972fa5968460a8921837ff5d"
+    },
+    {
+      "file": "cli/Gpss.Cli.exe",
+      "bytes": 73933820,
+      "sha256": "cb90e079c7530a5b0eb4cab6d3dc25db3efbacef39933d09795a24bfa56021d9"
+    }
+  ],
+  "source": "per-observation absolute differences; combined LX/LY/RX/RY",
+  "windowSeconds": 30,
+  "binWidthBits": 1,
+  "rounding": "1 decimal, AwayFromZero, then floor",
+  "testsExecuted": false,
+  "benchmarksExecuted": false,
+  "windowsExecutionTested": false
+}

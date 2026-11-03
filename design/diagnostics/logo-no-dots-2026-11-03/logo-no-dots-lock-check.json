@@ -1,0 +1,10 @@
+[
+  {
+    "path": "artifacts/win-x64/cli/Gpss.Cli.exe",
+    "replaceable": true
+  },
+  {
+    "path": "artifacts/win-x64/desktop/Gpss.Desktop.exe",
+    "replaceable": true
+  }
+]

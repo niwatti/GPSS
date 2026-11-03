@@ -1,0 +1,29 @@
+{
+  "wpfEmbeddedIconMatches": true,
+  "frameSizes": [
+    16,
+    20,
+    24,
+    32,
+    40,
+    48,
+    64,
+    128,
+    256
+  ],
+  "executables": [
+    {
+      "file": "Gpss.Desktop.exe",
+      "nativeIconFrames": 9,
+      "nativeGroupCount": 1,
+      "sha256": "7d975ee67eaebf4304a889c352f7eb86091ba8883bbcf37e336630177498e9d2"
+    },
+    {
+      "file": "Gpss.Cli.exe",
+      "nativeIconFrames": 9,
+      "nativeGroupCount": 1,
+      "sha256": "66a586fee64b8bd0bc51df5f3e567e420a292e526249236bcd575f09f3823841"
+    }
+  ],
+  "windowsExecuted": false
+}

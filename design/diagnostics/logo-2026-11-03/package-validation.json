@@ -1,0 +1,28 @@
+{
+  "completedDate": "2026-11-03",
+  "outputDirectory": "artifacts/win-x64-logo",
+  "zipFiles": 194,
+  "zipBytes": 93270570,
+  "zipSha256": "0965b71802608a41993f1275f0ac6c927ec0205695d2499d76ace7d5eccadfa6",
+  "allManifestHashesMatched": true,
+  "zipCrcPassed": true,
+  "singleExecutablePerApp": true,
+  "latestDesignAndBrandingFilesMatched": true,
+  "nativeIconFramesVerified": 9,
+  "wpfEmbeddedIconVerified": true,
+  "windowsExecuted": false,
+  "executables": [
+    {
+      "executable": "Gpss.Desktop.exe",
+      "bytes": 140447838,
+      "sha256": "7d975ee67eaebf4304a889c352f7eb86091ba8883bbcf37e336630177498e9d2",
+      "embeddedFiles": 389
+    },
+    {
+      "executable": "Gpss.Cli.exe",
+      "bytes": 74105852,
+      "sha256": "66a586fee64b8bd0bc51df5f3e567e420a292e526249236bcd575f09f3823841",
+      "embeddedFiles": 182
+    }
+  ]
+}

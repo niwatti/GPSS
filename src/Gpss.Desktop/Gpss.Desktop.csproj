@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0-windows</TargetFramework><UseWPF>true</UseWPF><EnableWindowsTargeting>true</EnableWindowsTargeting><OutputType>WinExe</OutputType></PropertyGroup>
+<PropertyGroup>
+  <ApplicationIcon>../../assets/branding/gpss.ico</ApplicationIcon>
+  <PublishSingleFile Condition="'$(RuntimeIdentifier)' == 'win-x64'">true</PublishSingleFile>
+  <EnableSingleFileAnalyzer>true</EnableSingleFileAnalyzer>
+  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+  <CopyOutputSymbolsToPublishDirectory>false</CopyOutputSymbolsToPublishDirectory>
+  <DebugType>embedded</DebugType>
+  <DebugSymbols>true</DebugSymbols>
+</PropertyGroup>
+<ItemGroup>
+  <Resource Include="../../assets/branding/gpss.ico" Link="Assets/gpss.ico" />
+</ItemGroup>
+<ItemGroup><ProjectReference Include="../Gpss.Application/Gpss.Application.csproj" /><ProjectReference Include="../Gpss.Input.HidDirect/Gpss.Input.HidDirect.csproj" /><ProjectReference Include="../Gpss.Input.XInput/Gpss.Input.XInput.csproj" /><ProjectReference Include="../Gpss.Input.Simulation/Gpss.Input.Simulation.csproj" /></ItemGroup>
+</Project>

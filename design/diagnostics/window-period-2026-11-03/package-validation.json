@@ -1,0 +1,27 @@
+{
+  "completedDate": "2026-11-03",
+  "outputDirectory": "artifacts/win-x64-window-period",
+  "oldOutputDirectoryLocked": true,
+  "zipFiles": 173,
+  "zipBytes": 91914277,
+  "zipSha256": "f5606ceafbdda92a742bb7b5e6dc9d78b89199b7792f01f78723f936c39e1bd6",
+  "allManifestHashesMatched": true,
+  "zipCrcPassed": true,
+  "singleExecutablePerApp": true,
+  "latestDesignFilesMatched": true,
+  "windowsExecuted": false,
+  "executables": [
+    {
+      "executable": "Gpss.Desktop.exe",
+      "bytes": 140210270,
+      "sha256": "9386fa9497e15c10156b51a13da1bebf26b60f5066ef78a07c3676509af49601",
+      "embeddedFiles": 389
+    },
+    {
+      "executable": "Gpss.Cli.exe",
+      "bytes": 73946108,
+      "sha256": "c768ecaa3d118c6b74c46a1f762b0488d1c4a757cd90238fa9776a19e1f17662",
+      "embeddedFiles": 182
+    }
+  ]
+}

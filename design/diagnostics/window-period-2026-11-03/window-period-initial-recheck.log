@@ -1,0 +1,20 @@
+VSTest のバージョン 18.7.0 (arm64)
+
+テスト実行を開始しています。お待ちください...
+合計 5 個のテスト ファイルが指定されたパターンと一致しました。
+[xUnit.net 00:00:00.47]     Gpss.XInput.Tests.XInputSourceTests.LegacyNormalSettingsAreForcedToLowLatencyWithBoundedYield [FAIL]
+  失敗 Gpss.XInput.Tests.XInputSourceTests.LegacyNormalSettingsAreForcedToLowLatencyWithBoundedYield [55 ms]
+  エラー メッセージ:
+   Low-latency mode did not yield: 214 calls / 50.2025 ms
+  スタック トレース:
+     at Gpss.XInput.Tests.XInputSourceTests.LegacyNormalSettingsAreForcedToLowLatencyWithBoundedYield() in /Volumes/dev/gpss/tests/Gpss.XInput.Tests/XInputSourceTests.cs:line 180
+   at Gpss.XInput.Tests.XInputSourceTests.LegacyNormalSettingsAreForcedToLowLatencyWithBoundedYield() in /Volumes/dev/gpss/tests/Gpss.XInput.Tests/XInputSourceTests.cs:line 181
+--- End of stack trace from previous location ---
+警告: 結果ファイルを上書きしています: /Volumes/dev/gpss/TestResults/window-period.trx
+結果ファイル: /Volumes/dev/gpss/TestResults/window-period.trx
+
+成功!   -失敗:     0、合格:   100、スキップ:     0、合計:   100、期間: 1 s - Gpss.Core.Tests.dll (net10.0)
+成功!   -失敗:     0、合格:    40、スキップ:     0、合計:    40、期間: 430 ms - Gpss.Application.Tests.dll (net10.0)
+失敗!   -失敗:     1、合格:    13、スキップ:     0、合計:    14、期間: 243 ms - Gpss.XInput.Tests.dll (net10.0)
+成功!   -失敗:     0、合格:    21、スキップ:     0、合計:    21、期間: 180 ms - Gpss.HidDirect.Tests.dll (net10.0)
+成功!   -失敗:     0、合格:    13、スキップ:     0、合計:    13、期間: 1 s - Gpss.Cli.Tests.dll (net10.0)

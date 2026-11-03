@@ -1,0 +1,47 @@
+VSTest のバージョン 18.7.0 (arm64)
+
+テスト実行を開始しています。お待ちください...
+合計 1 個のテスト ファイルが指定されたパターンと一致しました。
+[xUnit.net 00:00:00.13]     Gpss.Core.Tests.HistoryProjectionTests.OmittedRunsDoNotReconnectReusedContinuityIds [FAIL]
+[xUnit.net 00:00:00.13]     Gpss.Core.Tests.HistoryProjectionTests.OverflowPreservesOldestAndNewestPointsInsteadOfOnlyTheTail [FAIL]
+[xUnit.net 00:00:00.17]     Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(rate: 1000) [FAIL]
+[xUnit.net 00:00:00.57]     Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(rate: 8000) [FAIL]
+  失敗 Gpss.Core.Tests.HistoryProjectionTests.OmittedRunsDoNotReconnectReusedContinuityIds [13 ms]
+  エラー メッセージ:
+   Assert.Equal() Failure: Values differ
+Expected: 0
+Actual:   15
+  スタック トレース:
+     at Gpss.Core.Tests.HistoryProjectionTests.OmittedRunsDoNotReconnectReusedContinuityIds() in /Volumes/dev/gpss/tests/Gpss.Core.Tests/HistoryProjectionTests.cs:line 66
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  失敗 Gpss.Core.Tests.HistoryProjectionTests.OverflowPreservesOldestAndNewestPointsInsteadOfOnlyTheTail [< 1 ms]
+  エラー メッセージ:
+   Assert.Equal() Failure: Values differ
+Expected: 0
+Actual:   84
+  スタック トレース:
+     at Gpss.Core.Tests.HistoryProjectionTests.OverflowPreservesOldestAndNewestPointsInsteadOfOnlyTheTail() in /Volumes/dev/gpss/tests/Gpss.Core.Tests/HistoryProjectionTests.cs:line 53
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)
+  失敗 Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(rate: 1000) [68 ms]
+  エラー メッセージ:
+   Assert.Equal() Failure: Values differ
+Expected: 1234717890000
+Actual:   1234935980000
+  スタック トレース:
+     at Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(Int32 rate) in /Volumes/dev/gpss/tests/Gpss.Core.Tests/LiveAxisWindowTests.cs:line 152
+   at System.Reflection.MethodBaseInvoker.InterpretedInvoke_Method(Object obj, IntPtr* args)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+  失敗 Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(rate: 8000) [401 ms]
+  エラー メッセージ:
+   Assert.Equal() Failure: Values differ
+Expected: 1234717890000
+Actual:   1235007651250
+  スタック トレース:
+     at Gpss.Core.Tests.LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(Int32 rate) in /Volumes/dev/gpss/tests/Gpss.Core.Tests/LiveAxisWindowTests.cs:line 152
+   at InvokeStub_LiveAxisWindowTests.FrequentContinuityChangesKeepTheWholeThirtySecondHistory(Object, Span`1)
+   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+結果ファイル: /Volumes/dev/gpss/TestResults/history-before.trx
+
+失敗!   -失敗:     4、合格:     0、スキップ:     0、合計:     4、期間: 472 ms - Gpss.Core.Tests.dll (net10.0)

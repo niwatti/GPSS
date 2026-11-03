@@ -1,0 +1,20 @@
+{
+  "canonicalOutput": "artifacts/win-x64",
+  "latestExecutables": {
+    "artifacts/win-x64/cli/Gpss.Cli.exe": "66a586fee64b8bd0bc51df5f3e567e420a292e526249236bcd575f09f3823841",
+    "artifacts/win-x64/desktop/Gpss.Desktop.exe": "7d975ee67eaebf4304a889c352f7eb86091ba8883bbcf37e336630177498e9d2"
+  },
+  "removedDirectories": [
+    "artifacts/win-x64-logo",
+    "artifacts/win-x64-window-period",
+    "artifacts/histogram-flbpsx_t",
+    "artifacts/history-fix-j83_2hky",
+    "artifacts/single-file-490ovxoz",
+    "artifacts/single-file-xlvwcrvz",
+    "artifacts/xinput-step-fix-q_73aopr",
+    "TestResults/logo-staging",
+    "TestResults/mean-lowlatency-staging",
+    "TestResults/window-period-staging"
+  ],
+  "cleanupErrors": []
+}

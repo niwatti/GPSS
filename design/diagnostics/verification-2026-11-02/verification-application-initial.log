@@ -1,0 +1,16 @@
+VSTest のバージョン 18.7.0 (arm64)
+
+テスト実行を開始しています。お待ちください...
+合計 1 個のテスト ファイルが指定されたパターンと一致しました。
+[xUnit.net 00:00:05.26]     Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames [FAIL]
+  失敗 Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames [5 s]
+  エラー メッセージ:
+   Histogram state was not reached
+  スタック トレース:
+     at Gpss.Application.Tests.HistogramPipelineTests.Until(Func`1 condition) in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 34
+   at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames() in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 62
+   at Gpss.Application.Tests.HistogramPipelineTests.FourAxesExpireTogetherWithoutDependingOnDisplayPollingOrZeroDeltaFrames() in /Volumes/dev/gpss/tests/Gpss.Application.Tests/HistogramPipelineTests.cs:line 64
+--- End of stack trace from previous location ---
+結果ファイル: /Volumes/dev/gpss/TestResults/verification-application.trx
+
+失敗!   -失敗:     1、合格:    30、スキップ:     0、合計:    31、期間: 5 s - Gpss.Application.Tests.dll (net10.0)

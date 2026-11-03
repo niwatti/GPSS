@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="5cfb46ef-9050-4282-a748-ff1c03f14a09" name="@MacBook-Air 2026-11-03 14:55:08" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-03T14:55:08.2174790+09:00" queuing="2026-11-03T14:55:08.2174790+09:00" start="2026-11-03T14:55:06.4252160+09:00" finish="2026-11-03T14:55:09.7068960+09:00" />
+  <TestSettings name="default" id="eec7d553-d604-40c4-8c56-da2f99f825a2">
+    <Deployment runDeploymentRoot="_MacBook-Air_2026-11-03_14_55_08" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="298b6a28-57e4-4211-93fa-4302d7a79feb" testId="bd5c24b3-f52c-e095-fb10-cba00694f82e" testName="Gpss.Cli.Tests.CsvRecordingTests.Analyze_rejects_declared_non_millisecond_time_unit" computerName="MacBook-Air" duration="00:00:00.0027194" startTime="2026-11-03T14:55:07.7874480+09:00" endTime="2026-11-03T14:55:07.7874830+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="298b6a28-57e4-4211-93fa-4302d7a79feb" />
+    <UnitTestResult executionId="b96ec8b7-2f56-44ac-b487-53307fa264d3" testId="726191c1-7247-766e-4e0e-1ad207f54631" testName="Gpss.Cli.Tests.CsvRecordingTests.Analyze_rejects_nonfinite_time_and_malformed_row_width" computerName="MacBook-Air" duration="00:00:00.0010762" startTime="2026-11-03T14:55:09.6840610+09:00" endTime="2026-11-03T14:55:09.6850510+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b96ec8b7-2f56-44ac-b487-53307fa264d3" />
+    <UnitTestResult executionId="b8ad522d-8faf-4d20-ae61-9bf74c483749" testId="46b38b5e-7889-aa4f-5534-1c65a319b767" testName="Gpss.Cli.Tests.CliTests.Multiple_devices_require_an_explicit_selection" computerName="MacBook-Air" duration="00:00:00.0008296" startTime="2026-11-03T14:55:07.9985160+09:00" endTime="2026-11-03T14:55:07.9985590+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8ad522d-8faf-4d20-ae61-9bf74c483749" />
+    <UnitTestResult executionId="7277c08a-8040-4c78-b57e-2d79f4a99249" testId="e0fbb28a-69ac-ea1f-f969-cad963377591" testName="Gpss.Cli.Tests.CsvRecordingTests.ReadLegacy_preserves_missing_axis_values_as_nan" computerName="MacBook-Air" duration="00:00:00.0015198" startTime="2026-11-03T14:55:07.7902160+09:00" endTime="2026-11-03T14:55:07.7917390+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7277c08a-8040-4c78-b57e-2d79f4a99249" />
+    <UnitTestResult executionId="92868f61-a6dc-4419-a2a7-4bef2302a235" testId="ae97109a-489f-6728-52ca-dd8a94d1c398" testName="Gpss.Cli.Tests.CsvRecordingTests.Analyze_ignores_nan_but_counts_rows_and_checks_monotonic_millisecond_time" computerName="MacBook-Air" duration="00:00:00.0039571" startTime="2026-11-03T14:55:07.7876940+09:00" endTime="2026-11-03T14:55:07.7901530+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92868f61-a6dc-4419-a2a7-4bef2302a235" />
+    <UnitTestResult executionId="02cbdca2-476b-4351-b04f-af4a8d7b5924" testId="ec9d695a-a57f-3585-6728-9367397a1615" testName="Gpss.Cli.Tests.CliTests.Demo_captures_finite_samples_and_streams_csv(format: &quot;v2&quot;)" computerName="MacBook-Air" duration="00:00:00.0113346" startTime="2026-11-03T14:55:07.8690080+09:00" endTime="2026-11-03T14:55:07.8805400+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="02cbdca2-476b-4351-b04f-af4a8d7b5924" />
+    <UnitTestResult executionId="fdc5dba1-fc21-4803-a9e8-5d92d5903ce7" testId="7cf7dafa-a14b-8228-52fa-6cf5932ac03a" testName="Gpss.Cli.Tests.CsvRecordingTests.Legacy_writer_preserves_eight_column_contract_and_missing_values" computerName="MacBook-Air" duration="00:00:00.0006981" startTime="2026-11-03T14:55:09.6834010+09:00" endTime="2026-11-03T14:55:09.6839730+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fdc5dba1-fc21-4803-a9e8-5d92d5903ce7" />
+    <UnitTestResult executionId="24affc59-87bf-46fb-bdb0-0a39f6e79d72" testId="538f833c-1659-5555-98fa-72f2441baa87" testName="Gpss.Cli.Tests.CliTests.Empty_source_times_out_with_a_distinct_error" computerName="MacBook-Air" duration="00:00:00.1007838" startTime="2026-11-03T14:55:07.8816670+09:00" endTime="2026-11-03T14:55:07.9826080+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="24affc59-87bf-46fb-bdb0-0a39f6e79d72" />
+    <UnitTestResult executionId="675dec0f-e965-4335-acf2-aebb19111286" testId="be53d9cc-9591-82cd-19b2-0c614042de42" testName="Gpss.Cli.Tests.CliTests.Unknown_option_is_rejected" computerName="MacBook-Air" duration="00:00:00.0007175" startTime="2026-11-03T14:55:07.8808440+09:00" endTime="2026-11-03T14:55:07.8815830+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="675dec0f-e965-4335-acf2-aebb19111286" />
+    <UnitTestResult executionId="c893b853-5c30-4aab-a41a-2297bef6c92b" testId="da2a5d0d-b8bf-5843-1425-1d453794451e" testName="Gpss.Cli.Tests.CsvRecordingTests.V2_rows_have_fixed_header_width_for_axis_and_auxiliary_records" computerName="MacBook-Air" duration="00:00:00.0891068" startTime="2026-11-03T14:55:07.6919190+09:00" endTime="2026-11-03T14:55:07.7834130+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c893b853-5c30-4aab-a41a-2297bef6c92b" />
+    <UnitTestResult executionId="a01cc914-5199-4165-9b13-7880e5785e78" testId="90e0f014-b84e-a036-4eb1-829947923fad" testName="Gpss.Cli.Tests.CliTests.Demo_captures_finite_samples_and_streams_csv(format: &quot;legacy&quot;)" computerName="MacBook-Air" duration="00:00:00.1742968" startTime="2026-11-03T14:55:07.6912820+09:00" endTime="2026-11-03T14:55:07.8688100+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a01cc914-5199-4165-9b13-7880e5785e78" />
+    <UnitTestResult executionId="92338d43-52c8-4c4d-bf49-6e65b508d5a0" testId="7fa7eca2-b0cd-5f29-d3f9-a8203b5245dc" testName="Gpss.Cli.Tests.CsvRecordingTests.Analyze_reads_every_preserved_repository_recording" computerName="MacBook-Air" duration="00:00:01.8913739" startTime="2026-11-03T14:55:07.7918640+09:00" endTime="2026-11-03T14:55:09.6832250+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="92338d43-52c8-4c4d-bf49-6e65b508d5a0" />
+    <UnitTestResult executionId="ce5af919-e1fc-4286-a305-ef8c0e2c2b82" testId="90f45b60-3118-5e95-98ce-75a1e337c933" testName="Gpss.Cli.Tests.CliTests.Source_error_fails_fast_instead_of_becoming_a_timeout" computerName="MacBook-Air" duration="00:00:00.0007544" startTime="2026-11-03T14:55:07.9987170+09:00" endTime="2026-11-03T14:55:07.9987410+09:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ce5af919-e1fc-4286-a305-ef8c0e2c2b82" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Demo_captures_finite_samples_and_streams_csv(format: &quot;legacy&quot;)" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="90e0f014-b84e-a036-4eb1-829947923fad">
+      <Execution id="a01cc914-5199-4165-9b13-7880e5785e78" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Demo_captures_finite_samples_and_streams_csv" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.ReadLegacy_preserves_missing_axis_values_as_nan" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="e0fbb28a-69ac-ea1f-f969-cad963377591">
+      <Execution id="7277c08a-8040-4c78-b57e-2d79f4a99249" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="ReadLegacy_preserves_missing_axis_values_as_nan" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Source_error_fails_fast_instead_of_becoming_a_timeout" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="90f45b60-3118-5e95-98ce-75a1e337c933">
+      <Execution id="ce5af919-e1fc-4286-a305-ef8c0e2c2b82" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Source_error_fails_fast_instead_of_becoming_a_timeout" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.Analyze_reads_every_preserved_repository_recording" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="7fa7eca2-b0cd-5f29-d3f9-a8203b5245dc">
+      <Execution id="92338d43-52c8-4c4d-bf49-6e65b508d5a0" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="Analyze_reads_every_preserved_repository_recording" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Unknown_option_is_rejected" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="be53d9cc-9591-82cd-19b2-0c614042de42">
+      <Execution id="675dec0f-e965-4335-acf2-aebb19111286" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Unknown_option_is_rejected" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.Analyze_rejects_nonfinite_time_and_malformed_row_width" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="726191c1-7247-766e-4e0e-1ad207f54631">
+      <Execution id="b96ec8b7-2f56-44ac-b487-53307fa264d3" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="Analyze_rejects_nonfinite_time_and_malformed_row_width" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.V2_rows_have_fixed_header_width_for_axis_and_auxiliary_records" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="da2a5d0d-b8bf-5843-1425-1d453794451e">
+      <Execution id="c893b853-5c30-4aab-a41a-2297bef6c92b" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="V2_rows_have_fixed_header_width_for_axis_and_auxiliary_records" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Empty_source_times_out_with_a_distinct_error" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="538f833c-1659-5555-98fa-72f2441baa87">
+      <Execution id="24affc59-87bf-46fb-bdb0-0a39f6e79d72" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Empty_source_times_out_with_a_distinct_error" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.Analyze_ignores_nan_but_counts_rows_and_checks_monotonic_millisecond_time" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="ae97109a-489f-6728-52ca-dd8a94d1c398">
+      <Execution id="92868f61-a6dc-4419-a2a7-4bef2302a235" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="Analyze_ignores_nan_but_counts_rows_and_checks_monotonic_millisecond_time" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.Legacy_writer_preserves_eight_column_contract_and_missing_values" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="7cf7dafa-a14b-8228-52fa-6cf5932ac03a">
+      <Execution id="fdc5dba1-fc21-4803-a9e8-5d92d5903ce7" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="Legacy_writer_preserves_eight_column_contract_and_missing_values" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Multiple_devices_require_an_explicit_selection" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="46b38b5e-7889-aa4f-5534-1c65a319b767">
+      <Execution id="b8ad522d-8faf-4d20-ae61-9bf74c483749" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Multiple_devices_require_an_explicit_selection" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CsvRecordingTests.Analyze_rejects_declared_non_millisecond_time_unit" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="bd5c24b3-f52c-e095-fb10-cba00694f82e">
+      <Execution id="298b6a28-57e4-4211-93fa-4302d7a79feb" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CsvRecordingTests" name="Analyze_rejects_declared_non_millisecond_time_unit" />
+    </UnitTest>
+    <UnitTest name="Gpss.Cli.Tests.CliTests.Demo_captures_finite_samples_and_streams_csv(format: &quot;v2&quot;)" storage="/volumes/dev/gpss/tests/gpss.cli.tests/bin/debug/net10.0/gpss.cli.tests.dll" id="ec9d695a-a57f-3585-6728-9367397a1615">
+      <Execution id="02cbdca2-476b-4351-b04f-af4a8d7b5924" />
+      <TestMethod codeBase="/Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="Gpss.Cli.Tests.CliTests" name="Demo_captures_finite_samples_and_streams_csv" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="bd5c24b3-f52c-e095-fb10-cba00694f82e" executionId="298b6a28-57e4-4211-93fa-4302d7a79feb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="726191c1-7247-766e-4e0e-1ad207f54631" executionId="b96ec8b7-2f56-44ac-b487-53307fa264d3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46b38b5e-7889-aa4f-5534-1c65a319b767" executionId="b8ad522d-8faf-4d20-ae61-9bf74c483749" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e0fbb28a-69ac-ea1f-f969-cad963377591" executionId="7277c08a-8040-4c78-b57e-2d79f4a99249" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ae97109a-489f-6728-52ca-dd8a94d1c398" executionId="92868f61-a6dc-4419-a2a7-4bef2302a235" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec9d695a-a57f-3585-6728-9367397a1615" executionId="02cbdca2-476b-4351-b04f-af4a8d7b5924" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7cf7dafa-a14b-8228-52fa-6cf5932ac03a" executionId="fdc5dba1-fc21-4803-a9e8-5d92d5903ce7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="538f833c-1659-5555-98fa-72f2441baa87" executionId="24affc59-87bf-46fb-bdb0-0a39f6e79d72" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="be53d9cc-9591-82cd-19b2-0c614042de42" executionId="675dec0f-e965-4335-acf2-aebb19111286" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="da2a5d0d-b8bf-5843-1425-1d453794451e" executionId="c893b853-5c30-4aab-a41a-2297bef6c92b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90e0f014-b84e-a036-4eb1-829947923fad" executionId="a01cc914-5199-4165-9b13-7880e5785e78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fa7eca2-b0cd-5f29-d3f9-a8203b5245dc" executionId="92338d43-52c8-4c4d-bf49-6e65b508d5a0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90f45b60-3118-5e95-98ce-75a1e337c933" executionId="ce5af919-e1fc-4286-a305-ef8c0e2c2b82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="一覧に存在しない結果" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="読み込まれたすべての結果" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.14)
+[xUnit.net 00:00:00.21]   Discovering: Gpss.Cli.Tests
+[xUnit.net 00:00:00.24]   Discovered:  Gpss.Cli.Tests
+[xUnit.net 00:00:00.25]   Starting:    Gpss.Cli.Tests
+[0] デモ（左8bit / 右10bit） (id=demo)
+選択軸: rx / 1 サンプル
+[0] デモ（左8bit / 右10bit） (id=demo)
+[1] second (id=second)
+[0] デモ（左8bit / 右10bit） (id=demo)
+選択軸: rx / 1 サンプル
+[xUnit.net 00:00:02.25]   Finished:    Gpss.Cli.Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

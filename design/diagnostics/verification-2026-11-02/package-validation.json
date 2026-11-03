@@ -1,0 +1,11 @@
+{
+  "filesInZip": 129,
+  "zipBytes": 91652241,
+  "zipSha256": "37bd6ae96238a371868877081f29d822a3875a9d70df44c03415f7cefcde26f5",
+  "manifestPayloadFiles": 128,
+  "allPayloadHashesMatched": true,
+  "zipCrcPassed": true,
+  "exactlyOneExecutablePerApp": true,
+  "executablesUnchangedFromHistogramBuild": true,
+  "windowsExecutionTested": false
+}

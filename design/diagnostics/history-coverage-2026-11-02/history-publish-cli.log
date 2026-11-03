@@ -1,0 +1,12 @@
+  復元対象のプロジェクトを決定しています...
+CSSM_ModuleLoad(): One or more parameters passed to a function were not valid.
+  復元対象のすべてのプロジェクトは最新です。
+  Gpss.Core -> /Volumes/dev/gpss/src/Gpss.Core/bin/Release/net10.0/win-x64/Gpss.Core.dll
+  Gpss.Input.Abstractions -> /Volumes/dev/gpss/src/Gpss.Input.Abstractions/bin/Release/net10.0/win-x64/Gpss.Input.Abstractions.dll
+  Gpss.Recording -> /Volumes/dev/gpss/src/Gpss.Recording/bin/Release/net10.0/win-x64/Gpss.Recording.dll
+  Gpss.Application -> /Volumes/dev/gpss/src/Gpss.Application/bin/Release/net10.0/win-x64/Gpss.Application.dll
+  Gpss.Input.HidDirect -> /Volumes/dev/gpss/src/Gpss.Input.HidDirect/bin/Release/net10.0/win-x64/Gpss.Input.HidDirect.dll
+  Gpss.Input.XInput -> /Volumes/dev/gpss/src/Gpss.Input.XInput/bin/Release/net10.0/win-x64/Gpss.Input.XInput.dll
+  Gpss.Input.Simulation -> /Volumes/dev/gpss/src/Gpss.Input.Simulation/bin/Release/net10.0/win-x64/Gpss.Input.Simulation.dll
+  Gpss.Cli -> /Volumes/dev/gpss/src/Gpss.Cli/bin/Release/net10.0/win-x64/Gpss.Cli.dll
+  Gpss.Cli -> /Volumes/dev/gpss/artifacts/history-fix-j83_2hky/cli/

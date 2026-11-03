@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<PropertyGroup><TargetFramework>net10.0</TargetFramework><OutputType>Exe</OutputType></PropertyGroup>
+<PropertyGroup>
+  <ApplicationIcon>../../assets/branding/gpss.ico</ApplicationIcon>
+  <PublishSingleFile Condition="'$(RuntimeIdentifier)' == 'win-x64'">true</PublishSingleFile>
+  <EnableSingleFileAnalyzer>true</EnableSingleFileAnalyzer>
+  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  <EnableCompressionInSingleFile>false</EnableCompressionInSingleFile>
+  <CopyOutputSymbolsToPublishDirectory>false</CopyOutputSymbolsToPublishDirectory>
+  <DebugType>embedded</DebugType>
+  <DebugSymbols>true</DebugSymbols>
+</PropertyGroup>
+<ItemGroup><ProjectReference Include="../Gpss.Recording/Gpss.Recording.csproj" /><ProjectReference Include="../Gpss.Application/Gpss.Application.csproj" /><ProjectReference Include="../Gpss.Input.HidDirect/Gpss.Input.HidDirect.csproj" /><ProjectReference Include="../Gpss.Input.XInput/Gpss.Input.XInput.csproj" /><ProjectReference Include="../Gpss.Input.Simulation/Gpss.Input.Simulation.csproj" /></ItemGroup>
+</Project>

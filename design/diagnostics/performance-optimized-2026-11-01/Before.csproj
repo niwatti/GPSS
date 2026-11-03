@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework>
+    <RuntimeIdentifiers></RuntimeIdentifiers><RestorePackagesWithLockFile>false</RestorePackagesWithLockFile>
+    <BaselineDirectory Condition="'$(BaselineDirectory)' == ''">$(MSBuildThisFileDirectory)../../../archive/csharp-m6-analysis-baseline</BaselineDirectory>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../performance-2026-11-01/Program.cs" Link="Program.cs" />
+    <Reference Include="Gpss.Core"><HintPath>$(BaselineDirectory)/Gpss.Core.dll</HintPath></Reference>
+    <Reference Include="Gpss.Application"><HintPath>$(BaselineDirectory)/Gpss.Application.dll</HintPath></Reference>
+    <Reference Include="Gpss.Input.Abstractions"><HintPath>$(BaselineDirectory)/Gpss.Input.Abstractions.dll</HintPath></Reference>
+    <Reference Include="Gpss.Input.XInput"><HintPath>$(BaselineDirectory)/Gpss.Input.XInput.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>

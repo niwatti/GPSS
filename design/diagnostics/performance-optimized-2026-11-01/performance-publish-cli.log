@@ -1,0 +1,18 @@
+  復元対象のプロジェクトを決定しています...
+  /Volumes/dev/gpss/src/Gpss.Input.XInput/Gpss.Input.XInput.csproj を復元しました (79 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Application/Gpss.Application.csproj を復元しました (79 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Input.Abstractions/Gpss.Input.Abstractions.csproj を復元しました (79 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Input.HidDirect/Gpss.Input.HidDirect.csproj を復元しました (79 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Input.Simulation/Gpss.Input.Simulation.csproj を復元しました (79 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Core/Gpss.Core.csproj を復元しました (70 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Cli/Gpss.Cli.csproj を復元しました (87 ミリ秒)。
+  /Volumes/dev/gpss/src/Gpss.Recording/Gpss.Recording.csproj を復元しました (79 ミリ秒)。
+  Gpss.Core -> /Volumes/dev/gpss/src/Gpss.Core/bin/Release/net10.0/win-x64/Gpss.Core.dll
+  Gpss.Input.Abstractions -> /Volumes/dev/gpss/src/Gpss.Input.Abstractions/bin/Release/net10.0/win-x64/Gpss.Input.Abstractions.dll
+  Gpss.Recording -> /Volumes/dev/gpss/src/Gpss.Recording/bin/Release/net10.0/win-x64/Gpss.Recording.dll
+  Gpss.Application -> /Volumes/dev/gpss/src/Gpss.Application/bin/Release/net10.0/win-x64/Gpss.Application.dll
+  Gpss.Input.HidDirect -> /Volumes/dev/gpss/src/Gpss.Input.HidDirect/bin/Release/net10.0/win-x64/Gpss.Input.HidDirect.dll
+  Gpss.Input.XInput -> /Volumes/dev/gpss/src/Gpss.Input.XInput/bin/Release/net10.0/win-x64/Gpss.Input.XInput.dll
+  Gpss.Input.Simulation -> /Volumes/dev/gpss/src/Gpss.Input.Simulation/bin/Release/net10.0/win-x64/Gpss.Input.Simulation.dll
+  Gpss.Cli -> /Volumes/dev/gpss/src/Gpss.Cli/bin/Release/net10.0/win-x64/Gpss.Cli.dll
+  Gpss.Cli -> /Volumes/dev/gpss/artifacts/win-x64/cli/

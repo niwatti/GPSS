@@ -1,0 +1,24 @@
+{
+  "zipFiles": 149,
+  "zipBytes": 91754042,
+  "zipSha256": "2d6e4dc385283080f07adfed7f74feef1a98862714f5be8b3efe202eef52785e",
+  "allManifestHashesMatch": true,
+  "zipCrcPassed": true,
+  "singleExecutablePerApp": true,
+  "windowsExecuted": false,
+  "executables": [
+    {
+      "executable": "Gpss.Desktop.exe",
+      "bytes": 140197982,
+      "sha256": "e2dfd1015148a7fe49685203ebc07edc67c5fe2f6227a0342e452d925190a122",
+      "embeddedFiles": 389
+    },
+    {
+      "executable": "Gpss.Cli.exe",
+      "bytes": 73937916,
+      "sha256": "8aaadb6984e182ce32f313d7c087dda9357c9359680b82f2240f61befabb90d5",
+      "embeddedFiles": 182
+    }
+  ],
+  "latestDesignFilesMatched": true
+}

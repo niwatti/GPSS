@@ -1,0 +1,22 @@
+  Gpss.Core -> /Volumes/dev/gpss/src/Gpss.Core/bin/Debug/net10.0/Gpss.Core.dll
+  Gpss.Input.Abstractions -> /Volumes/dev/gpss/src/Gpss.Input.Abstractions/bin/Debug/net10.0/Gpss.Input.Abstractions.dll
+  Gpss.Input.HidDirect -> /Volumes/dev/gpss/src/Gpss.Input.HidDirect/bin/Debug/net10.0/Gpss.Input.HidDirect.dll
+  Gpss.Input.XInput -> /Volumes/dev/gpss/src/Gpss.Input.XInput/bin/Debug/net10.0/Gpss.Input.XInput.dll
+  Gpss.Input.Simulation -> /Volumes/dev/gpss/src/Gpss.Input.Simulation/bin/Debug/net10.0/Gpss.Input.Simulation.dll
+  Gpss.Application -> /Volumes/dev/gpss/src/Gpss.Application/bin/Debug/net10.0/Gpss.Application.dll
+  Gpss.Desktop -> /Volumes/dev/gpss/src/Gpss.Desktop/bin/Debug/net10.0-windows/Gpss.Desktop.dll
+  Gpss.Core.Tests -> /Volumes/dev/gpss/tests/Gpss.Core.Tests/bin/Debug/net10.0/Gpss.Core.Tests.dll
+  Gpss.HidDirect.Tests -> /Volumes/dev/gpss/tests/Gpss.HidDirect.Tests/bin/Debug/net10.0/Gpss.HidDirect.Tests.dll
+  Gpss.XInput.Tests -> /Volumes/dev/gpss/tests/Gpss.XInput.Tests/bin/Debug/net10.0/Gpss.XInput.Tests.dll
+  Gpss.Application.Tests -> /Volumes/dev/gpss/tests/Gpss.Application.Tests/bin/Debug/net10.0/Gpss.Application.Tests.dll
+  Gpss.Desktop.Tests -> /Volumes/dev/gpss/tests/Gpss.Desktop.Tests/bin/Debug/net10.0-windows/Gpss.Desktop.Tests.dll
+  Gpss.Recording -> /Volumes/dev/gpss/src/Gpss.Recording/bin/Debug/net10.0/Gpss.Recording.dll
+  Gpss.Cli -> /Volumes/dev/gpss/src/Gpss.Cli/bin/Debug/net10.0/Gpss.Cli.dll
+  Gpss.Cli.Tests -> /Volumes/dev/gpss/tests/Gpss.Cli.Tests/bin/Debug/net10.0/Gpss.Cli.Tests.dll
+  Gpss.Benchmarks -> /Volumes/dev/gpss/tools/Gpss.Benchmarks/bin/Debug/net10.0/Gpss.Benchmarks.dll
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:34.96
