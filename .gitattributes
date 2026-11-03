@@ -1,0 +1,2 @@
+/artifacts/GPSS-win-x64.zip filter=lfs diff=lfs merge=lfs -text
+/artifacts/win-x64/desktop/Gpss.Desktop.exe filter=lfs diff=lfs merge=lfs -text
